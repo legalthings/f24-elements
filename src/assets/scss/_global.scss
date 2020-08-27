@@ -1,0 +1,66 @@
+@import '~css/imports';
+
+#app, html, body {
+    height: 100%;
+}
+
+html {
+    background: url("../images/global/page-bg.svg") no-repeat calc(100% + 900px) top $color-blue-gray-01;
+}
+
+a, li {
+    transition: color .2s ease;
+}
+
+.burger-icon {
+    &:before {
+        content: '';
+        position: absolute;
+        left: 0;
+        top: 0;
+        bottom: 0;
+        width: 100%;
+        background: linear-gradient(
+                        to bottom,
+                        white, white 18%,
+                        rgba(0, 0, 0, 0) 17%, rgba(0, 0, 0, 0) 40%,
+                        white 40%, white 58%,
+                        rgba(0, 0, 0, 0) 58%, rgba(0, 0, 0, 0) 80%,
+                        white 82%, white 100%
+        );
+    }
+}
+
+
+// Titles
+.page-block-content-title {
+    @include fs-medium;
+    color: $color-blue-darker;
+    @include font-size($h4-font-sizes);
+}
+
+.page-content-title {
+    @include fs-medium;
+    color: $color-blue;
+    @include font-size($h4-font-sizes);
+}
+
+
+// Set selectbox font family for all browsers
+select {
+    @include fs-regular;
+}
+
+
+// Remove modal close button on mobile view
+.modal-close {
+    @include breakpoint-down(md) {
+        display: none;
+    }
+}
+
+// Helpers
+
+.space-between {
+    justify-content: space-between;
+}

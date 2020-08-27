@@ -1,0 +1,62 @@
+export const TRANSLATIONS = {
+    EN: {
+        ORGANIZATION_NOTIFICATION: {
+            CANCEL: 'Cancel',
+            SUBMIT: 'Submit',
+            CLOSE: 'Close',
+            NEXT_STEP: 'Next step',
+            PREVIOUS_STEP: 'Previous step',
+            WELCOME: 'Welcome to the new dashboard',
+            WELCOME_TEXT: 'We have converted your procedure into a digitale shareholder register. Please verify if all your information is correct. If something is not correct, you can easily indicate after you clicked away this pop-up. We will adjust the information.',
+            BANNER_TEXT: 'Is all the information correct? Please check carefully the shareholders and the distribution of the shares.',
+            BANNER_TEXT_PENDING: 'Thank you for verifying the data. Firm24 is currently processing the requested changes. This may take a few days. Do you have any questions? Send an email to: onboarding@firm24.com.',
+            BANNER_TEXT_SUBMITTED: 'Please take a minute to verify the modified organizational data before you continue.',
+            ACTION_YES: 'Yes, everything looks fine',
+            ACTION_NO: 'No, the information is not correct',
+            ACTION_FIX: 'Submit new request',
+            CONFIRMATION_TITLE: 'Confirm approval information',
+            CONFIRMATION_DESCRIPTION: ' I declare that the information is correct and up-to-date. In case of any changes, I will contact onboarding@firm24.com.',
+            THANK_YOU: 'Thank you!',
+            THANK_YOU_TEXT: 'Thank you for verifying the data. The new shareholders register is ready to use. Do you have any questions? Send an email to: onboarding@firm24.com.',
+            FIX_DIALOG_TITLE: 'Is the data incorrect because a notarial change has taken place such as a share transfer of an amendment to the articles of association?',
+            FIX_DIALOG_OPTION_1: 'Yes, a notarial change has taken place.',
+            FIX_DIALOG_OPTION_2: 'No, the original data from the incorporation are incorrect.',
+            UPLOAD_TEXT: 'Upload the notarial deed which includes the change. This can be, for example, the notarial deed of share transfer or the deed of amendment.',
+            EXPLANATION_TITLE: 'Explanation change',
+            EXPLANATION_DESCRIPTION: 'Please provide a brief description of the change.',
+            VALIDATION: 'Please lengthen this text to 10 characters or more.',
+            THANK_YOU_FIX_DATA: 'Thank you very much for verifying the data. The new shareholders register will be corrected by Firm24. As soon as it has been adjusted and ready for use, you will receive a confirmation per email from us . Do you have any questions? Send an email to: onboarding@firm24.com.',
+            UPLOAD_PLACEHOLDER: 'Drag your PDF files here or click to upload.'
+        }
+    },
+    NL: {
+        ORGANIZATION_NOTIFICATION: {
+            CANCEL: 'Annuleer',
+            SUBMIT: 'Verstuur',
+            CLOSE: 'Sluiten',
+            NEXT_STEP: 'Volgende stap',
+            PREVIOUS_STEP: 'Vorige stap',
+            WELCOME: 'Welkom tot het nieuwe dashboard',
+            WELCOME_TEXT: 'We hebben jouw procedure omgezet naar een digitaal aandeelhoudersregister. Controleer of alle gegevens kloppen. Mocht er iets niet kloppen dan kun je dat eenvoudig aangeven nadat je deze pop-up weggeklikt hebt. Wij passen het vervolgens aan.',
+            BANNER_TEXT: 'Klopt alle informatie? Controleer goed de aandeelhouders en de verdeling van de aandelen.',
+            BANNER_TEXT_PENDING: 'Hartelijk dank voor het controleren van de gegevens Firm24 behandeld de wijziging. Dit kan enkele dagen duren. Heb je nog vragen? Stuur een email naar: onboarding@firm24.com.',
+            BANNER_TEXT_SUBMITTED: 'Neem even de tijd om de gewijzigde organisatiegegevens te verifiëren voordat u doorgaat.',
+            ACTION_YES: 'Ja, alles klopt',
+            ACTION_NO: 'Nee, informatie is verkeerd',
+            ACTION_FIX: 'Corrigeer aanvraag',
+            CONFIRMATION_TITLE: 'Bevestig goedkeuring informatie',
+            CONFIRMATION_DESCRIPTION: 'Ik verklaar dat de informatie correct en up-to-date is. Bij wijziging of aanpassing zal ik contact opnemen met onboarding@firm24.com.',
+            THANK_YOU: 'Bedankt!',
+            THANK_YOU_TEXT: 'Hartelijk dank voor het controleren van de gegevens. Het nieuwe digitale aandeelhoudersregister is klaar voor gebruik. Heb je nog vragen? Stuur een email naar: onboarding@firm24.com.',
+            FIX_DIALOG_TITLE: 'Zijn de gegevens verkeerd doordat er een notariële wijziging heeft plaatsgevonden zoals een aandelenoverdracht of een statutenwijziging?',
+            FIX_DIALOG_OPTION_1: 'Ja, er heeft een notariële wijziging plaatsgevonden.',
+            FIX_DIALOG_OPTION_2: 'Nee, de originele gegevens van de oprichting zijn verkeerd.',
+            UPLOAD_TEXT: 'Upload de notariële akte waarmee de wijziging heeft plaatsgevonden. Dit kan bijv. zijn de notariële akte van overdracht of akte van wijziging.',
+            EXPLANATION_TITLE: 'Toelichting wijziging',
+            EXPLANATION_DESCRIPTION: 'Geef een korte beschrijving van de wijziging.',
+            VALIDATION: 'Verleng deze tekst tot 10 letters of meer.',
+            THANK_YOU_FIX_DATA: 'Hartelijk dank voor het controleren van de gegevens. Het digitale aandeelhouders zal door Firm24 worden gecorrigeerd. Zodra deze is aangepast en klaar is voor gebruik ontvang je van ons een e-mail ter bevestiging. Heb je nog vragen? Stuur een email naar: onboarding@firm24.com.',
+            UPLOAD_PLACEHOLDER: 'Sleep uw PDF-bestanden hierheen of klik om te uploaden.'
+        }
+    }
+};

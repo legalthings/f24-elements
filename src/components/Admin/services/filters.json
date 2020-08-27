@@ -1,0 +1,255 @@
+{
+    "id": "processesfilter",
+    "name": "Processes Filter",
+    "definition": [
+        {
+            "fields": [
+                {
+                    "type": "select",
+                    "label": "Scenario",
+                    "name": "scenario[_id]",
+                    "url": "lt:flow:scenarios",
+                    "optionValue": "id",
+                    "optionText": "name",
+                    "helptext": "",
+                    "conditions": "",
+                    "external_source": "true",
+                    "validation": "",
+                    "source": "external_source"
+                },
+                {
+                    "type": "select",
+                    "label": "Categorie",
+                    "name": "scenario[categories]",
+                    "url": "lt:flow:categories",
+                    "jmespath": null,
+                    "optionValue": "id",
+                    "optionText": "name",
+                    "helptext": null,
+                    "conditions": null,
+                    "source": "external_source",
+                    "validation": null,
+                    "external_source": "true"
+                },
+                {
+                    "type": "select",
+                    "label": "Urgentie",
+                    "name": "urgency",
+                    "url": null,
+                    "jmespath": null,
+                    "optionValue": [
+                        "1",
+                        "3"
+                    ],
+                    "optionText": [
+                        "Snel",
+                        "Spoed"
+                    ],
+                    "value": null,
+                    "helptext": null,
+                    "conditions": null,
+                    "source": "custom_list",
+                    "validation": null,
+                    "external_source": null,
+                    "optionSelected": [],
+                    "options": [
+                        {
+                            "value": "1",
+                            "label": "Snel"
+                        },
+                        {
+                            "value": "3",
+                            "label": "Spoed"
+                        }
+                    ]
+                },
+                {
+                    "type": "select",
+                    "label": "Type oprichting",
+                    "name": "products[package.id]",
+                    "jmespath": null,
+                    "optionValue": [
+                        "firm24_bv",
+                        "firm24_stichting",
+                        "firm24_spaarbv",
+                        "firm24_notariele_inbrengakte",
+                        "firm24_onderneming_omzetten"
+                    ],
+                    "optionText": [
+                        "BV \/ Holding",
+                        "Stichting",
+                        "Spaar BV",
+                        "Inbrengprocedures",
+                        "EmZ\/VoF naar BV"
+                    ],
+                    "value": null,
+                    "helptext": null,
+                    "conditions": null,
+                    "source": "custom_list",
+                    "validation": null,
+                    "external_source": null,
+                    "optionSelected": [],
+                    "options": [
+                        {
+                            "value": "firm24_bv",
+                            "label": "BV \/ Holding"
+                        },
+                        {
+                            "value": "firm24_stichting",
+                            "label": "Stichting"
+                        },
+                        {
+                            "value": "firm24_spaarbv",
+                            "label": "Spaar BV"
+                        },
+                        {
+                            "value": "firm24_notariele_inbrengakte",
+                            "label": "Inbrengprocedures"
+                        },
+                        {
+                            "value": "firm24_onderneming_omzetten",
+                            "label": "EmZ\/VoF naar BV"
+                        }
+                    ]
+                },
+                {
+                    "type": "select",
+                    "label": "Notaris",
+                    "name": "actors[organization]",
+                    "url": "lt:iam:\/organizations?type=affiliate&affiliate_type=notary",
+                    "jmespath": null,
+                    "optionValue": "id",
+                    "optionText": "name",
+                    "value": null,
+                    "helptext": null,
+                    "conditions": null,
+                    "source": "external_source",
+                    "validation": null,
+                    "external_source": "true"
+                },
+                {
+                    "type": "select",
+                    "label": "Betaald",
+                    "name": "previous[definition]",
+                    "jmespath": null,
+                    "optionValue": [
+                        "payment"
+                    ],
+                    "optionText": [
+                        "Ja"
+                    ],
+                    "helptext": null,
+                    "conditions": null,
+                    "source": "custom_list",
+                    "validation": null,
+                    "external_source": null,
+                    "optionSelected": [],
+                    "options": [
+                        {
+                            "value": "payment",
+                            "label": "Ja"
+                        }
+                    ]
+                },
+                {
+                    "type": "select",
+                    "label": "Niet Betaald",
+                    "name": "previous[definition(not)]",
+                    "url": null,
+                    "jmespath": null,
+                    "optionValue": [
+                        "payment"
+                    ],
+                    "optionText": [
+                        "Niet Betaald"
+                    ],
+                    "helptext": null,
+                    "conditions": null,
+                    "source": "custom_list",
+                    "validation": null,
+                    "external_source": null,
+                    "optionSelected": [],
+                    "options": [
+                        {
+                            "value": "payment",
+                            "label": "Niet Betaald"
+                        }
+                    ]
+                },
+                {
+                    "type": "select",
+                    "label": "Status",
+                    "name": "state",
+                    "url": "",
+                    "optionValue": [
+                        "running",
+                        "finished"
+                    ],
+                    "optionText": [
+                        "Lopend",
+                        "Be\u00ebindigd"
+                    ],
+                    "helptext": "",
+                    "conditions": "",
+                    "validation": "",
+                    "optionSelected": [],
+                    "options": [
+                        {
+                            "value": "running",
+                            "label": "Lopend"
+                        },
+                        {
+                            "value": "finished",
+                            "label": "Be\u00ebindigd"
+                        }
+                    ],
+                    "source": "custom_list"
+                },
+                {
+                    "type": "select",
+                    "label": "Type actor",
+                    "name": "actor[key]",
+                    "url": null,
+                    "jmespath": null,
+                    "optionValue": [
+                        "notary",
+                        "user",
+                        "primary"
+                    ],
+                    "optionText": [
+                        "Notaris",
+                        "Cli\u00ebnt",
+                        "Firm24"
+                    ],
+                    "value": null,
+                    "helptext": null,
+                    "conditions": null,
+                    "source": "custom_list",
+                    "validation": null,
+                    "external_source": null,
+                    "optionSelected": [],
+                    "options": [
+                        {
+                            "value": "notary",
+                            "label": "Notaris"
+                        },
+                        {
+                            "value": "user",
+                            "label": "Cli\u00ebnt"
+                        },
+                        {
+                            "value": "primary",
+                            "label": "Firm24"
+                        }
+                    ]
+                }
+            ],
+            "id": 0
+        }
+    ],
+    "jmespath_in": "",
+    "jmespath_out": "",
+    "licenses": [],
+    "folder": "",
+    "url": "lt:forms:\/forms\/processesfilter"
+}
