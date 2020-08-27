@@ -20,7 +20,7 @@ export type F24Elements = {
     install(vue: VueConstructor<Vue>): void;
 };
 
-const instance: F24Elements = {
+const f24Elements: F24Elements = {
     install() {
         class F24Elements {
             constructor() {
@@ -33,4 +33,4 @@ const instance: F24Elements = {
     }
 };
 
-export default instance;
+export default f24Elements;

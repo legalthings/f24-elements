@@ -19,5 +19,8 @@ export declare type f24Elements = {
     install(vue: VueConstructor<Vue>): void;
 };
 
-declare const instance: f24Elements;
-export default instance;
+
+declare const f24Elements: f24Elements;
+export default f24Elements;
+
+declare module 'f24Elements';
