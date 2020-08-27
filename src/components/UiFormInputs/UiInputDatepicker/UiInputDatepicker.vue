@@ -45,7 +45,6 @@
 
 <script lang="ts">
     import { Component, Prop, Vue } from 'vue-property-decorator';
-    import i18n from '@/dependencies/i18n';
 
     @Component
     export default class UiInputDatepicker extends Vue {
@@ -81,11 +80,11 @@
         }
 
         get monthNames() {
-            return this.months[i18n.locale];
+            return this.months[this.$i18n.locale];
         }
 
         get dayNames() {
-            return this.days[i18n.locale];
+            return this.days[this.i18n.locale];
         }
     }
 </script>

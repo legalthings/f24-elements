@@ -65,7 +65,6 @@
 
 <script lang="ts">
     import { Component, Prop, Vue } from 'vue-property-decorator';
-    import i18n from '@/dependencies/i18n';
 
     @Component
     export default class UiInputRadio extends Vue {
@@ -85,11 +84,11 @@
         get defaultOptions() {
             return [
                 {
-                    name: i18n.t('GLOBAL.TRUE'),
+                    name: 'Yes',
                     id: true
                 },
                 {
-                    name: i18n.t('GLOBAL.FALSE'),
+                    name: 'No',
                     id: false
                 }
             ];
