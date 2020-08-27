@@ -16,11 +16,11 @@ export {
     UiInputUpload
 };
 
-export type f24Elements = {
+export type F24Elements = {
     install(vue: VueConstructor<Vue>): void;
 };
 
-const instance: f24Elements = {
+const instance: F24Elements = {
     install() {
         class F24Elements {
             constructor() {

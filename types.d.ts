@@ -15,7 +15,7 @@ export {
     UiInputUpload
 };
 
-export type f24Elements = {
+export declare type f24Elements = {
     install(vue: VueConstructor<Vue>): void;
 };
 
