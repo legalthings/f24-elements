@@ -7,6 +7,8 @@ import UiInputRadio from './src/components/UiFormInputs/UiInputRadio/UiInputRadi
 import UiInputSelectbox from './src/components/UiFormInputs/UiInputSelectbox/UiInputSelectbox.vue';
 import UiInputUpload from './src/components/UiFormInputs/UiInputUpload/UiInputUpload.vue';
 
+import { ValidationObserver, ValidationProvider } from 'vee-validate';
+
 export {
     UiInputText,
     UiInputCheckbox,
@@ -22,6 +24,9 @@ export type F24Elements = {
 
 const f24Elements: F24Elements = {
     install() {
+        Vue.component('ValidationObserver', ValidationObserver);
+        Vue.component('ValidationProvider', ValidationProvider);
+
         class F24Elements {
             constructor() {
                 console.log('loaded');
