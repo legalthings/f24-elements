@@ -3,16 +3,6 @@ import VueRouter from 'vue-router';
 import authService from '@/services/auth.service';
 import pageMetadataService from '@/services/page-metadata.service';
 import store from '@/store';
-import authRouter from '@/router/auth.router';
-import processRouter from '@/router/process.router';
-import incorporationRouter from '@/router/incorporation.router';
-import documentRouter from '@/router/document.router';
-import organizationRouter from '@/router/organization.router';
-import userDetailsRouter from '@/router/userDetails.router';
-import startRouter from '@/router/start.router';
-import dashboardRouter from '@/router/dashboard.router';
-import incorporationFunnel from './incorporation-funnel.routes';
-import loginRouter from '@/router/login.router';
 
 // This is a work around to enable mock the route when doing unit tests
 if (!process || process.env.NODE_ENV !== 'test') {
@@ -22,26 +12,13 @@ if (!process || process.env.NODE_ENV !== 'test') {
 const routes = [
     {
         path: '/',
-        name: 'home',
-        redirect: {
-            name: 'login'
-        }
+        name: 'home'
     },
     {
         path: '*',
-        name: 'page404',
+        name: 'home',
         component: () => import(/* webpackChunkName: "page404" */ '../views/Global/Page404View.vue')
-    },
-    authRouter,
-    loginRouter,
-    startRouter,
-    processRouter,
-    documentRouter,
-    dashboardRouter,
-    userDetailsRouter,
-    organizationRouter,
-    incorporationRouter,
-    incorporationFunnel
+    }
 ];
 
 function organizationHasRole(organization: any, to: any): boolean {

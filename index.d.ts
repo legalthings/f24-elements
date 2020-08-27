@@ -1,5 +1,5 @@
-import UiInputText from './src/components/Global/UiFormInputs/UiInputText/UiInputText.vue';
+import UiFormInputs from './src/components/UiFormInputs';
 
 export {
-    UiInputText
-}
+    UiFormInputs
+};

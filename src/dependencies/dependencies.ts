@@ -4,10 +4,7 @@ import UiIcon from '@/components/Global/UiIcon/UiIcon.vue';
 import VueMediaQuery from 'vue-media-q';
 import { ValidationObserver, ValidationProvider } from 'vee-validate';
 import '@/helpers/validators';
-import i18nEditor from '@/plugins/i18nEditor/EditorPlugin';
 import Rollbar from 'vue-rollbar';
-import { dashboardService } from '@/components/Dashboard/services/dashboard.service';
-import { convertToLocaleString, formatDate, isFalseAndNotUndefined } from '@/helpers/utility.helper';
 import VueBreadcrumbs from 'vue-2-breadcrumbs';
 import VueCountryCode from 'vue-country-code';
 

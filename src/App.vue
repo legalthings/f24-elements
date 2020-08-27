@@ -1,8 +1,5 @@
 <template>
-    <div
-        id="app"
-        :class="$store.getters['userStore/type']"
-    >
+    <div id="app">
         <router-view />
     </div>
 </template>
