@@ -5,8 +5,10 @@
     "main": "index.js",
     "files": [
         "index.js",
-        "src"
+        "src",
+        "index.d.ts"
     ],
+    "typings": "index.d.ts",
     "scripts": {
         "build": "vue-cli-service build",
         "build:staging": "NODE_ENV=production vue-cli-service build --mode staging",
