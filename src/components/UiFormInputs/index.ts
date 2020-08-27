@@ -6,7 +6,7 @@ import UiInputRadio from './UiInputRadio/UiInputRadio.vue';
 import UiInputSelectbox from './UiInputSelectbox/UiInputSelectbox.vue';
 import UiInputUpload from './UiInputUpload/UiInputUpload.vue';
 
-export default {
+export {
     UiInputText,
     UiInputAddress,
     UiInputCheckbox,

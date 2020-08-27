@@ -1,4 +1,12 @@
-import formInputs from './src/components/UiFormInputs';
+import {
+    UiInputAddress,
+    UiInputCheckbox,
+    UiInputDatepicker,
+    UiInputRadio,
+    UiInputSelectbox,
+    UiInputText,
+    UiInputUpload
+} from './src/components/UiFormInputs';
 import Vue, { VueConstructor } from 'vue';
 
 export type f24Elements = {
@@ -6,7 +14,13 @@ export type f24Elements = {
 };
 
 export {
-    formInputs
+    UiInputText,
+    UiInputAddress,
+    UiInputCheckbox,
+    UiInputDatepicker,
+    UiInputRadio,
+    UiInputSelectbox,
+    UiInputUpload
 };
 
 const instance: f24Elements = {

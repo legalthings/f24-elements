@@ -1,8 +1,23 @@
-import UiFormInputs from './src/components/UiFormInputs';
+import {
+    UiInputAddress,
+    UiInputCheckbox,
+    UiInputDatepicker,
+    UiInputRadio,
+    UiInputSelectbox,
+    UiInputText,
+    UiInputUpload
+} from './src/components/UiFormInputs';
+
 import formInputs from './index';
 
 export {
-    UiFormInputs
+    UiInputText,
+    UiInputAddress,
+    UiInputCheckbox,
+    UiInputDatepicker,
+    UiInputRadio,
+    UiInputSelectbox,
+    UiInputUpload
 };
 
 export default formInputs;
