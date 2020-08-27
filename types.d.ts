@@ -1,4 +1,4 @@
-import _Vue from "vue";
+import Vue, { VueConstructor } from "vue";
 
 import UiInputText from './src/components/UiFormInputs/UiInputText/UiInputText.vue';
 import UiInputCheckbox from './src/components/UiFormInputs/UiInputCheckbox/UiInputCheckbox.vue';
@@ -17,7 +17,7 @@ export {
 };
 
 declare const f24Elements: {
-    install(Vue: typeof _Vue): void;
+    install(vue: VueConstructor<Vue>): void;
 };
 
 export default f24Elements;
