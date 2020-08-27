@@ -7,12 +7,6 @@ import UiInputRadio from './src/components/UiFormInputs/UiInputRadio/UiInputRadi
 import UiInputSelectbox from './src/components/UiFormInputs/UiInputSelectbox/UiInputSelectbox.vue';
 import UiInputUpload from './src/components/UiFormInputs/UiInputUpload/UiInputUpload.vue';
 
-import f24Elements from './index';
-
-export type f24Elements = {
-    install(vue: VueConstructor<Vue>): void;
-};
-
 export {
     UiInputText,
     UiInputCheckbox,
@@ -22,8 +16,12 @@ export {
     UiInputUpload
 };
 
+export type f24Elements = {
+    install(vue: VueConstructor<Vue>): void;
+};
+
 const instance: f24Elements = {
-    install(vue: VueConstructor<Vue>) {
+    install() {
         class F24Elements {
             constructor() {
                 console.log('loaded');
