@@ -1,14 +1,12 @@
-import Vue, {VueConstructor} from 'vue';
+import Vue, { VueConstructor } from 'vue';
 
-import {
-    UiInputAddress,
-    UiInputCheckbox,
-    UiInputDatepicker,
-    UiInputRadio,
-    UiInputSelectbox,
-    UiInputText,
-    UiInputUpload
-} from './src/components/UiFormInputs';
+import UiInputText from '@/components/UiFormInputs/UiInputText/UiInputText.vue';
+import UiInputAddress from '@/components/UiFormInputs/UiInputAddress/UiInputAddress.vue';
+import UiInputCheckbox from '@/components/UiFormInputs/UiInputCheckbox/UiInputCheckbox.vue';
+import UiInputDatepicker from '@/components/UiFormInputs/UiInputDatepicker/UiInputDatepicker.vue';
+import UiInputRadio from '@/components/UiFormInputs/UiInputRadio/UiInputRadio.vue';
+import UiInputSelectbox from '@/components/UiFormInputs/UiInputSelectbox/UiInputSelectbox.vue';
+import UiInputUpload from '@/components/UiFormInputs/UiInputUpload/UiInputUpload.vue';
 
 import f24Elements from './index';
 
