@@ -35,7 +35,7 @@
 
 <script lang="ts">
     import { Component, Prop, Vue } from 'vue-property-decorator';
-    import UiInputText from '@/components/UiFormInputs/UiInputText/UiInputText.vue';
+    import UiInputText from '../UiInputText/UiInputText.vue';
 
     @Component({
         components: { UiInputText }
