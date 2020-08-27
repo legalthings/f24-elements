@@ -2,6 +2,7 @@
     "name": "firm24",
     "version": "0.1.0",
     "private": true,
+    "main": "index.js",
     "scripts": {
         "build": "vue-cli-service build",
         "build:staging": "NODE_ENV=production vue-cli-service build --mode staging",
