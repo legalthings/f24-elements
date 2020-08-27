@@ -69,7 +69,7 @@
             this.$emit('input', v);
         }
 
-        deleteDropFile(index) {
+        deleteDropFile(index: number) {
             this.files.splice(index, 1);
         }
     }

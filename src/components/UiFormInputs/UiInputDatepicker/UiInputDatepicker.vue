@@ -60,13 +60,12 @@
 
         isActive = false;
 
-        const
-        months = {
+        months: any = {
             en: ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'],
             nl: ['Januari', 'Februari', 'Maart', 'April', 'Mei', 'Juni', 'Juli', 'Augustus']
         }
 
-        days = {
+        days: any = {
             en: ['Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat', 'Sun'],
             nl: ['Ma', 'Di', 'Wo', 'Do', 'Vr', 'Za', 'Zo']
         }
