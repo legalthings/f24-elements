@@ -82,9 +82,5 @@
         "sass-loader": "^9.0.3",
         "typescript": "~3.7.5",
         "vue-template-compiler": "^2.6.12"
-    },
-    "gitHooks": {
-        "pre-commit": "npm run lint",
-        "pre-push": "npm run test"
     }
 }
