@@ -19,15 +19,13 @@ export {
 };
 
 export type F24Elements = {
-    install(vue: VueConstructor<Vue>): void;
+    install(Vue: VueConstructor<Vue>): void;
 };
 
 const f24Elements: F24Elements = {
-    install() {
+    install(Vue) {
         Vue.component('ValidationObserver', ValidationObserver);
         Vue.component('ValidationProvider', ValidationProvider);
-
-        console.log(ValidationObserver);
 
         class F24Elements {
             constructor() {
