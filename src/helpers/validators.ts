@@ -1,7 +1,6 @@
 import { extend } from 'vee-validate';
 import { confirmed, email, min, min_value, numeric, required } from 'vee-validate/dist/rules';
 import i18n from '@/dependencies/i18n';
-import formOptionsService from '@/services/form-options-service';
 
 const kvk = {
     validate(value) {
@@ -19,12 +18,6 @@ const zipcode = {
 const isTrue = {
     validate(value) {
         return value === true;
-    }
-};
-
-const isHighRiskCountry = {
-    validate(value) {
-        return !formOptionsService.getHighRiskCountryById(value);
     }
 };
 
@@ -70,11 +63,6 @@ extend('numeric', {
 extend('isTrue', {
     ...isTrue,
     message: (_) => (i18n.t('FUNNEL.GLOBAL.NOT_POSSIBLE')) as string
-});
-
-extend('highRickCountry', {
-    ...isHighRiskCountry,
-    message: (_) => ('Unfortunately you can proceed if you live in this country')
 });
 
 extend('currency', {
