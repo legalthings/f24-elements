@@ -1,3 +1,5 @@
+import Vue, {VueConstructor} from 'vue';
+
 import {
     UiInputAddress,
     UiInputCheckbox,
@@ -8,7 +10,11 @@ import {
     UiInputUpload
 } from './src/components/UiFormInputs';
 
-import formInputs from './index';
+import f24Elements from './index';
+
+export declare type F24Elements = {
+    install(vue: VueConstructor<Vue>): void;
+};
 
 export {
     UiInputText,
@@ -20,4 +26,4 @@ export {
     UiInputUpload
 };
 
-export default formInputs;
+export default f24Elements;

@@ -83,7 +83,7 @@
         }
 
         get dayNames() {
-            return this.days[this.i18n.locale];
+            return this.days[this.$i18n.locale];
         }
     }
 </script>
