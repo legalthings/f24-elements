@@ -28,8 +28,8 @@ const instance: f24Elements = {
             }
         }
 
+        // eslint-disable-next-line @typescript-eslint/no-unused-vars
         const reno = new F24Elements();
-        console.log(reno);
     }
 };
 
