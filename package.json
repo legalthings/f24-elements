@@ -2,7 +2,7 @@
     "name": "firm24",
     "version": "0.1.0",
     "private": true,
-    "main": "index.js",
+    "main": "index.ts",
     "files": [
         "index.ts",
         "src",
