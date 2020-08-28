@@ -11,8 +11,9 @@ import {
     UiInputText,
     UiInputUpload
 } from './src/components';
+import './src/dependencies/i18n';
 import './src/assets/scss/styles.scss';
-// import './src/helpers/validators';
+import './src/helpers/validators';
 
 export {
     UiInputText,
@@ -21,8 +22,7 @@ export {
     UiInputDatepicker,
     UiInputRadio,
     UiInputSelectbox,
-    UiInputUpload,
-    UiIcon
+    UiInputUpload
 };
 
 export type F24Elements = {

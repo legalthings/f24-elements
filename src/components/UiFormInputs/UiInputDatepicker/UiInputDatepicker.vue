@@ -32,7 +32,6 @@
                     v-model="selected"
                     icon="calendar-day"
                     position="is-top-left"
-                    :placeholder="$t('USER.SELECT_OPTION')"
                     :month-names="monthNames"
                     :day-names="dayNames"
                     :min-date="min"
@@ -56,8 +55,8 @@
         @Prop({ default: 'required' }) rules!: string;
         @Prop() min!: number;
         @Prop() max!: number;
-        @Prop({ default: new Date() }) defaultDate!: number;
         @Prop() locale!: string;
+        @Prop() defaultDate!: number;
 
         isActive = false;
 
@@ -72,7 +71,7 @@
         }
 
         get selected() {
-            return new Date(this.value || this.defaultDate);
+            return new Date(this.value || this.defaultDate || new Date());
         }
 
         set selected(v: any) {

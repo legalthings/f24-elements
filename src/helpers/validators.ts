@@ -1,6 +1,6 @@
 import { extend } from 'vee-validate';
 import { confirmed, email, min, min_value, numeric, required } from 'vee-validate/dist/rules';
-import i18n from '@/dependencies/i18n';
+import i18n from '../dependencies/i18n';
 
 const kvk = {
     validate(value) {
