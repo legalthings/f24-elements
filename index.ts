@@ -12,7 +12,6 @@ import {
 } from './src/components';
 import './src/assets/scss/styles.scss';
 import './src/dependencies/i18n';
-import messages from './src/dependencies/i18n.messages';
 
 export {
     UiInputText,
@@ -33,9 +32,6 @@ const f24Elements: F24Elements = {
         Vue.component('ValidationObserver', ValidationObserver);
         Vue.component('ValidationProvider', ValidationProvider);
         Vue.component('UiIcon', UiIcon);
-
-        options.setLocaleMessage('nl', messages.nl);
-        options.setLocaleMessage('en', messages.en);
     }
 };
 
