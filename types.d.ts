@@ -1,10 +1,13 @@
-import UiInputText from './src/components/UiFormInputs/UiInputText/UiInputText.vue';
-import UiInputCheckbox from './src/components/UiFormInputs/UiInputCheckbox/UiInputCheckbox.vue';
-import UiInputDatepicker from './src/components/UiFormInputs/UiInputDatepicker/UiInputDatepicker.vue';
-import UiInputRadio from './src/components/UiFormInputs/UiInputRadio/UiInputRadio.vue';
-import UiInputSelectbox from './src/components/UiFormInputs/UiInputSelectbox/UiInputSelectbox.vue';
-import UiInputUpload from './src/components/UiFormInputs/UiInputUpload/UiInputUpload.vue';
-import UiInputAddress from './src/components/UiFormInputs/UiInputAddress/UiInputAddress.vue';
+import {
+    UiInputAddress,
+    UiInputCheckbox,
+    UiInputDatepicker,
+    UiInputRadio,
+    UiInputSelectbox,
+    UiInputText,
+    UiInputUpload
+} from './src/components';
+import i18n from './src/dependencies/i18n';
 
 export {
     UiInputText,
@@ -13,7 +16,8 @@ export {
     UiInputRadio,
     UiInputSelectbox,
     UiInputUpload,
-    UiInputAddress
+    UiInputAddress,
+    i18n
 };
 
 declare const f24Elements: {
