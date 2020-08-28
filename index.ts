@@ -14,7 +14,6 @@ import './src/assets/scss/styles.scss';
 import Validators from './src/helpers/validators';
 import messages from './src/dependencies/i18n.messages';
 
-
 export {
     UiInputText,
     UiInputAddress,
@@ -37,6 +36,7 @@ const f24Elements: F24Elements = {
 
         Object.assign(options.messages.en, messages.en);
         Object.assign(options.messages.nl, messages.nl);
+        console.log(options);
         // class F24Elements {
         //     constructor() {
         //         console.log('loaded');
