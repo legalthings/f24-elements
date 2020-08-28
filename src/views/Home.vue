@@ -2,6 +2,8 @@
     <div>
         Home
 
+        {{ $t('VALIDATION.THIS_FIELD_IS_REQUIRED') }}
+
         <ValidationObserver>
             <UiInputText v-model="text" />
         </ValidationObserver>

@@ -11,9 +11,9 @@ import {
     UiInputText,
     UiInputUpload
 } from './src/components';
-import i18n from './src/dependencies/i18n';
 import './src/assets/scss/styles.scss';
 import './src/helpers/validators';
+import i18n from '@/dependencies/i18n';
 
 export {
     UiInputText,
@@ -22,7 +22,8 @@ export {
     UiInputDatepicker,
     UiInputRadio,
     UiInputSelectbox,
-    UiInputUpload
+    UiInputUpload,
+    i18n
 };
 
 export type F24Elements = {
@@ -35,8 +36,6 @@ const f24Elements: F24Elements = {
         Vue.component('ValidationObserver', ValidationObserver);
         Vue.component('ValidationProvider', ValidationProvider);
         Vue.component('UiIcon', UiIcon);
-
-        Vue.i18 = i18n;
 
         class F24Elements {
             constructor() {

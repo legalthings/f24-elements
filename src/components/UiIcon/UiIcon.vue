@@ -14,7 +14,7 @@
     @Component
     export default class UiIcon extends Vue {
         @Prop() icon!: boolean;
-        @Prop() type!: IconType;
+        @Prop() type!: any;
         @Prop() loading!: boolean;
         @Prop() size!: number;
         @Prop({ default: 'blue' }) color!: string;

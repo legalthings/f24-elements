@@ -44,4 +44,3 @@
         @Prop() value: any;
     }
 </script>
-
