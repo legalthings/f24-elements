@@ -12,6 +12,8 @@ import {
 } from './src/components';
 import './src/assets/scss/styles.scss';
 import Validators from './src/helpers/validators';
+import messages from '@/dependencies/i18n.messages';
+
 
 export {
     UiInputText,
@@ -33,6 +35,8 @@ const f24Elements: F24Elements = {
         Vue.component('ValidationProvider', ValidationProvider);
         Vue.component('UiIcon', UiIcon);
 
+        Object.assign(options.messages.en, messages.en);
+        Object.assign(options.messages.nl, messages.nl);
         // class F24Elements {
         //     constructor() {
         //         console.log('loaded');
