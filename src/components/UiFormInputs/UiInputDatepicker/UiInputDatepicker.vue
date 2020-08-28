@@ -57,6 +57,7 @@
         @Prop() min!: number;
         @Prop() max!: number;
         @Prop({ default: new Date() }) defaultDate!: number;
+        @Prop() locale!: string;
 
         isActive = false;
 
@@ -79,11 +80,11 @@
         }
 
         get monthNames() {
-            return this.months[this.$i18n.locale];
+            return this.months[this.locale];
         }
 
         get dayNames() {
-            return this.days[this.$i18n.locale];
+            return this.days[this.locale];
         }
     }
 </script>
