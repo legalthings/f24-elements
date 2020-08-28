@@ -50,26 +50,26 @@ class Validators {
             silentTranslationWarn: true,
             fallbackLocale: 'nl'
         });
-        console.log(_i18n.t('VALIDATION.THIS_FIELD_IS_REQUIRED'));
+        console.log(__i18n.t('VALIDATION.THIS_FIELD_IS_REQUIRED'));
 
         extend('required', {
             ...required,
-            message: (_, values) => (i18n.t('VALIDATION.THIS_FIELD_IS_REQUIRED', values)) as string
+            message: (_, values) => (_i18n.t('VALIDATION.THIS_FIELD_IS_REQUIRED', values)) as string
         });
 
         extend('email', {
             ...email,
-            message: (_, values) => (i18n.t('VALIDATION.THIS_FIELD_MUST_BE_A_VALID_EMAIL', values)) as string
+            message: (_, values) => (_i18n.t('VALIDATION.THIS_FIELD_MUST_BE_A_VALID_EMAIL', values)) as string
         });
 
         extend('confirmed', {
             ...confirmed,
-            message: (_, values) => (i18n.t('VALIDATION.THIS_FIELD_CONFIRMATION_DOES_NOT_MATCH', values)) as string
+            message: (_, values) => (_i18n.t('VALIDATION.THIS_FIELD_CONFIRMATION_DOES_NOT_MATCH', values)) as string
         });
 
         extend('kvk', {
             ...this.kvk,
-            message: (_, values) => (i18n.t('VALIDATION.VALID_KVK_NUMBER', values)) as string
+            message: (_, values) => (_i18n.t('VALIDATION.VALID_KVK_NUMBER', values)) as string
         });
 
         extend('numeric', {
@@ -79,7 +79,7 @@ class Validators {
 
         extend('isTrue', {
             ...this.isTrue,
-            message: (_) => (i18n.t('FUNNEL.GLOBAL.NOT_POSSIBLE')) as string
+            message: (_) => (_i18n.t('FUNNEL.GLOBAL.NOT_POSSIBLE')) as string
         });
 
         extend('currency', {
@@ -104,12 +104,12 @@ class Validators {
 
         extend('min', {
             ...min,
-            message: (_, { length }) => (i18n.t('VALIDATION.MIN_LENGTH_AMOUNT', { length: length.toString() })) as string
+            message: (_, { length }) => (_i18n.t('VALIDATION.MIN_LENGTH_AMOUNT', { length: length.toString() })) as string
         });
 
         extend('noBvOnName', {
             ...this.noBvOnName,
-            message: (_) => (i18n.t('FUNNEL.GLOBAL.NAME_CONTAINS_BV')) as string
+            message: (_) => (_i18n.t('FUNNEL.GLOBAL.NAME_CONTAINS_BV')) as string
         });
     }
 }
