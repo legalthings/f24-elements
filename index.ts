@@ -11,9 +11,11 @@ import {
     UiInputText,
     UiInputUpload
 } from './src/components';
-import './src/dependencies/i18n';
+import i18n from '@/dependencies/i18n';
 import './src/assets/scss/styles.scss';
 import './src/helpers/validators';
+
+'./src/dependencies/i18n';
 
 export {
     UiInputText,
@@ -30,11 +32,13 @@ export type F24Elements = {
 };
 
 const f24Elements: F24Elements = {
-    install(Vue) {
+    install(Vue: any) {
         Vue.use(Buefy, { defaultIconPack: 'fa' });
         Vue.component('ValidationObserver', ValidationObserver);
         Vue.component('ValidationProvider', ValidationProvider);
         Vue.component('UiIcon', UiIcon);
+
+        Vue.i18 = i18n;
 
         class F24Elements {
             constructor() {
