@@ -23,7 +23,7 @@
             const type = this.type ? this.type : 'common';
             const icon = this.loading ? 'common/icon-loading' : `${type}/icon-${this.icon}`;
             try {
-                return require('!svg-inline-loader!@/assets/icons/' + icon + '.svg');
+                return require('!svg-inline-loader!../../assets/icons/' + icon + '.svg');
             } catch (e) {
                 console.log('No icon was found', e);
             }
