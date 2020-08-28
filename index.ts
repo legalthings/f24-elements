@@ -12,7 +12,7 @@ import {
 } from './src/components';
 import './src/assets/scss/styles.scss';
 import './src/dependencies/i18n';
-import messages from '@/dependencies/i18n.messages';
+import messages from './src/dependencies/i18n.messages';
 
 export {
     UiInputText,
