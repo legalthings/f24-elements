@@ -1,6 +1,5 @@
 import { extend } from 'vee-validate';
 import { confirmed, email, min, min_value, numeric, required } from 'vee-validate/dist/rules';
-import i18n from '../dependencies/i18n';
 
 class Validators {
     atLeastOneDirector = {
@@ -43,7 +42,7 @@ class Validators {
         }
     };
 
-    constructor() {
+    constructor(i18n) {
         extend('required', {
             ...required,
             message: (_, values) => (i18n.t('VALIDATION.THIS_FIELD_IS_REQUIRED', values)) as string

@@ -34,7 +34,7 @@ const f24Elements: F24Elements = {
         Vue.component('ValidationProvider', ValidationProvider);
         Vue.component('UiIcon', UiIcon);
         // eslint-disable-next-line @typescript-eslint/no-unused-vars
-        const val = new Validators();
+        const val = new Validators(options);
     }
 };
 
