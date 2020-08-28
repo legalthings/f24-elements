@@ -8,12 +8,10 @@ import {
     UiInputDatepicker,
     UiInputRadio,
     UiInputSelectbox,
-    UiInputText,
-    UiInputUpload
+    UiInputText
 } from './src/components';
 import './src/assets/scss/styles.scss';
-import './src/helpers/validators';
-import i18n from './src/dependencies/i18n';
+import Validators from '@/helpers/validators';
 
 export {
     UiInputText,
@@ -21,9 +19,7 @@ export {
     UiInputCheckbox,
     UiInputDatepicker,
     UiInputRadio,
-    UiInputSelectbox,
-    UiInputUpload,
-    i18n
+    UiInputSelectbox
 };
 
 export type F24Elements = {
@@ -32,20 +28,19 @@ export type F24Elements = {
 
 const f24Elements: F24Elements = {
     install(Vue: any, options) {
-        console.log(options);
         Vue.use(Buefy, { defaultIconPack: 'fa' });
         Vue.component('ValidationObserver', ValidationObserver);
         Vue.component('ValidationProvider', ValidationProvider);
         Vue.component('UiIcon', UiIcon);
 
-        class F24Elements {
-            constructor() {
-                console.log('loaded');
-            }
-        }
+        // class F24Elements {
+        //     constructor() {
+        //         console.log('loaded');
+        //     }
+        // }
 
         // eslint-disable-next-line @typescript-eslint/no-unused-vars
-        const reno = new F24Elements();
+        const validators = new Validators(options);
     }
 };
 
