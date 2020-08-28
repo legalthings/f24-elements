@@ -11,7 +11,7 @@ import {
     UiInputText
 } from './src/components';
 import './src/assets/scss/styles.scss';
-import Validators from '@/helpers/validators';
+import Validators from './src/helpers/validators';
 
 export {
     UiInputText,
