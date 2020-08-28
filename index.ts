@@ -34,8 +34,6 @@ const f24Elements: F24Elements = {
         Vue.component('ValidationProvider', ValidationProvider);
         Vue.component('UiIcon', UiIcon);
 
-        Object.assign(options.messages.en, messages.en);
-        Object.assign(options.messages.nl, messages.nl);
         console.log(options);
         // class F24Elements {
         //     constructor() {
