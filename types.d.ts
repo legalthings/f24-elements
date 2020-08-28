@@ -7,7 +7,6 @@ import {
     UiInputText,
     UiInputUpload
 } from './src/components';
-import i18n from './src/dependencies/i18n';
 
 export {
     UiInputText,
@@ -16,12 +15,11 @@ export {
     UiInputRadio,
     UiInputSelectbox,
     UiInputUpload,
-    UiInputAddress,
-    i18n
+    UiInputAddress
 };
 
 declare const f24Elements: {
-    install(vue: any): void;
+    install(vue: any, options: any): void;
 };
 
 export default f24Elements;

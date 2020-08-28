@@ -27,11 +27,12 @@ export {
 };
 
 export type F24Elements = {
-    install(Vue: VueConstructor<Vue>): void;
+    install(Vue: VueConstructor<Vue>, options: any): void;
 };
 
 const f24Elements: F24Elements = {
-    install(Vue: any) {
+    install(Vue: any, options) {
+        console.log(options);
         Vue.use(Buefy, { defaultIconPack: 'fa' });
         Vue.component('ValidationObserver', ValidationObserver);
         Vue.component('ValidationProvider', ValidationProvider);
