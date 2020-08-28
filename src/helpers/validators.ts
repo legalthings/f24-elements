@@ -44,7 +44,6 @@ class Validators {
     };
 
     constructor() {
-
         extend('required', {
             ...required,
             message: (_, values) => (i18n.t('VALIDATION.THIS_FIELD_IS_REQUIRED', values)) as string

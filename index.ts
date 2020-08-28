@@ -35,7 +35,7 @@ const f24Elements: F24Elements = {
         Vue.component('UiIcon', UiIcon);
 
         options.setLocaleMessage('nl', messages.nl);
-        options.setLocaleMessage('em', messages.en);
+        options.setLocaleMessage('en', messages.en);
     }
 };
 
