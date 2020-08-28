@@ -12,6 +12,7 @@ import {
 } from './src/components';
 import './src/assets/scss/styles.scss';
 import Validators from './src/helpers/validators';
+import VueI18n from 'vue-i18n';
 
 export {
     UiInputText,
@@ -32,6 +33,7 @@ const f24Elements: F24Elements = {
         Vue.component('ValidationObserver', ValidationObserver);
         Vue.component('ValidationProvider', ValidationProvider);
         Vue.component('UiIcon', UiIcon);
+        Vue.use(VueI18n);
         // eslint-disable-next-line @typescript-eslint/no-unused-vars
         const val = new Validators(options);
     }
