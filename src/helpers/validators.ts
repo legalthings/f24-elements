@@ -50,7 +50,7 @@ class Validators {
             silentTranslationWarn: true,
             fallbackLocale: 'nl'
         });
-        console.log(__i18n.t('VALIDATION.THIS_FIELD_IS_REQUIRED'));
+        console.log(_i18n.t('VALIDATION.THIS_FIELD_IS_REQUIRED'));
 
         extend('required', {
             ...required,
