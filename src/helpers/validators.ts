@@ -1,5 +1,7 @@
 import { extend } from 'vee-validate';
 import { confirmed, email, min, min_value, numeric, required } from 'vee-validate/dist/rules';
+import VueI18n from 'vue-i18n';
+import messages from '@/dependencies/i18n.messages';
 
 class Validators {
     atLeastOneDirector = {
@@ -43,7 +45,12 @@ class Validators {
     };
 
     constructor(i18n) {
-        console.log(i18n.t('VALIDATION.THIS_FIELD_IS_REQUIRED'));
+        const _i18n = new VueI18n({
+            messages,
+            silentTranslationWarn: true,
+            fallbackLocale: 'nl'
+        });
+        console.log(_i18n.t('VALIDATION.THIS_FIELD_IS_REQUIRED'));
 
         extend('required', {
             ...required,
