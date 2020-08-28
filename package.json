@@ -1,5 +1,5 @@
 {
-    "name": "firm24",
+    "name": "f24-elements",
     "version": "0.1.0",
     "private": true,
     "main": "index.ts",
@@ -38,7 +38,6 @@
         "@vue/cli-plugin-babel": "^4.2.3",
         "@vue/cli-plugin-e2e-cypress": "~4.2.0",
         "@vue/cli-plugin-eslint": "^4.2.3",
-        "@vue/cli-plugin-pwa": "~4.2.0",
         "@vue/cli-plugin-router": "^4.2.3",
         "@vue/cli-plugin-typescript": "^4.2.3",
         "@vue/cli-plugin-unit-jest": "^4.2.3",

@@ -1,19 +1,13 @@
-import './hooks';
 import Vue from 'vue';
 import App from './App.vue';
-import '@/assets/scss/styles.scss';
+import router from './router';
 
-// Here goes all external dependencies
-import '@/dependencies/dependencies';
-import i18n from '@/dependencies/i18n';
+import f24Elements from '../index';
+Vue.use(f24Elements);
 
 Vue.config.productionTip = false;
 
-async function createVue() {
-    new Vue({
-        i18n,
-        render: h => h(App)
-    }).$mount('#app');
-}
-
-createVue();
+new Vue({
+    router,
+    render: h => h(App)
+}).$mount('#app');

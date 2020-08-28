@@ -13,10 +13,5 @@ module.exports = {
                 icons: path.resolve(__dirname, 'src/assets/icons/')
             }
         }
-    },
-
-    pwa: {
-        name: 'Firm24',
-        themeColor: '#23579E'
     }
 };
