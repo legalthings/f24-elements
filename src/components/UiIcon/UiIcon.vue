@@ -10,7 +10,6 @@
 
 <script lang="ts">
     import { Component, Prop, Vue } from 'vue-property-decorator';
-    import { IconType } from '@/types/icons.types';
 
     @Component
     export default class UiIcon extends Vue {
@@ -21,7 +20,7 @@
         @Prop({ default: 'blue' }) color!: string;
 
         get url() {
-            const type: IconType = this.type ? this.type : 'common';
+            const type = this.type ? this.type : 'common';
             const icon = this.loading ? 'common/icon-loading' : `${type}/icon-${this.icon}`;
             try {
                 return require('!svg-inline-loader!@/assets/icons/' + icon + '.svg');
@@ -33,7 +32,7 @@
 </script>
 
 <style lang="scss" scoped>
-    @import '~css/imports';
+    @import '../../assets/scss/imports';
 
     .ui-icon {
         box-sizing: content-box;

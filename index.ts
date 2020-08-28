@@ -12,7 +12,7 @@ import {
     UiInputUpload
 } from './src/components';
 // import './src/assets/scss/styles.scss';
-import './src/helpers/validators';
+// import './src/helpers/validators';
 
 export {
     UiInputText,
