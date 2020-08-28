@@ -13,7 +13,7 @@ import {
 } from './src/components';
 import './src/assets/scss/styles.scss';
 import './src/helpers/validators';
-import i18n from '@/dependencies/i18n';
+import i18n from './src/dependencies/i18n';
 
 export {
     UiInputText,
