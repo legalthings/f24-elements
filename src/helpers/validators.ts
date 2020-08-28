@@ -1,7 +1,7 @@
 import { extend } from 'vee-validate';
 import { confirmed, email, min, min_value, numeric, required } from 'vee-validate/dist/rules';
 import VueI18n from 'vue-i18n';
-import messages from '@/dependencies/i18n.messages';
+import messages from '../dependencies/i18n.messages';
 
 class Validators {
     atLeastOneDirector = {
