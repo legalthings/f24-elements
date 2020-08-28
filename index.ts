@@ -11,8 +11,8 @@ import {
     UiInputText,
     UiInputUpload
 } from './src/components';
-import '@/assets/scss/styles.scss';
-import '@/helpers/validators';
+// import './src/assets/scss/styles.scss';
+import './src/helpers/validators';
 
 export {
     UiInputText,
