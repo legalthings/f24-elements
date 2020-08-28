@@ -45,6 +45,3 @@
     }
 </script>
 
-<style lang="scss" scoped>
-    @import '~css/_imports';
-</style>

@@ -76,7 +76,7 @@
 </script>
 
 <style lang="scss" scoped>
-    @import '~css/_imports';
+    @import '../../../assets/scss/imports';
 
     /deep/ .b-tooltip {
         cursor: pointer;

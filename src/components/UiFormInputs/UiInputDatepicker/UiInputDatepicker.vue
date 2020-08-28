@@ -89,7 +89,7 @@
 </script>
 
 <style lang="scss" scoped>
-    @import '~css/_imports';
+    @import '../../../assets/scss/imports';
 
     /deep/ .control-label {
         display: flex;
