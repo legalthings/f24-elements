@@ -1,9 +1,8 @@
 import { extend } from 'vee-validate';
 import { confirmed, email, min, min_value, numeric, required } from 'vee-validate/dist/rules';
+import i18n from '../dependencies/i18n';
 
 class Validators {
-    i18n;
-
     atLeastOneDirector = {
         validate(value, param) {
             return param[0] === 'false';
@@ -44,27 +43,26 @@ class Validators {
         }
     };
 
-    constructor(i18n: any) {
-        this.i18n = i18n;
+    constructor() {
 
         extend('required', {
             ...required,
-            message: (_, values) => (this.i18n.t('VALIDATION.THIS_FIELD_IS_REQUIRED', values)) as string
+            message: (_, values) => (i18n.t('VALIDATION.THIS_FIELD_IS_REQUIRED', values)) as string
         });
 
         extend('email', {
             ...email,
-            message: (_, values) => (this.i18n.t('VALIDATION.THIS_FIELD_MUST_BE_A_VALID_EMAIL', values)) as string
+            message: (_, values) => (i18n.t('VALIDATION.THIS_FIELD_MUST_BE_A_VALID_EMAIL', values)) as string
         });
 
         extend('confirmed', {
             ...confirmed,
-            message: (_, values) => (this.i18n.t('VALIDATION.THIS_FIELD_CONFIRMATION_DOES_NOT_MATCH', values)) as string
+            message: (_, values) => (i18n.t('VALIDATION.THIS_FIELD_CONFIRMATION_DOES_NOT_MATCH', values)) as string
         });
 
         extend('kvk', {
             ...this.kvk,
-            message: (_, values) => (this.i18n.t('VALIDATION.VALID_KVK_NUMBER', values)) as string
+            message: (_, values) => (i18n.t('VALIDATION.VALID_KVK_NUMBER', values)) as string
         });
 
         extend('numeric', {
@@ -74,7 +72,7 @@ class Validators {
 
         extend('isTrue', {
             ...this.isTrue,
-            message: (_) => (this.i18n.t('FUNNEL.GLOBAL.NOT_POSSIBLE')) as string
+            message: (_) => (i18n.t('FUNNEL.GLOBAL.NOT_POSSIBLE')) as string
         });
 
         extend('currency', {
@@ -99,12 +97,12 @@ class Validators {
 
         extend('min', {
             ...min,
-            message: (_, { length }) => (this.i18n.t('VALIDATION.MIN_LENGTH_AMOUNT', { length: length.toString() })) as string
+            message: (_, { length }) => (i18n.t('VALIDATION.MIN_LENGTH_AMOUNT', { length: length.toString() })) as string
         });
 
         extend('noBvOnName', {
             ...this.noBvOnName,
-            message: (_) => (this.i18n.t('FUNNEL.GLOBAL.NAME_CONTAINS_BV')) as string
+            message: (_) => (i18n.t('FUNNEL.GLOBAL.NAME_CONTAINS_BV')) as string
         });
     }
 }
