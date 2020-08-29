@@ -8,10 +8,10 @@ import {
     UiInputRadio,
     UiInputSelectbox,
     UiInputText
-} from './src/components';
-import './src/assets/scss/styles.scss';
-import Validators from './src/dependencies/validators';
-import messages from './src/dependencies/i18n.messages';
+} from '../components';
+import '../assets/scss/styles.scss';
+import Validators from '../dependencies/validators';
+import messages from '../dependencies/i18n.messages';
 
 export {
     UiInputText,

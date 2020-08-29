@@ -6,7 +6,7 @@ import {
     UiInputSelectbox,
     UiInputText,
     UiInputUpload
-} from './src/components';
+} from '../components';
 
 export {
     UiInputText,

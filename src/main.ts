@@ -2,7 +2,7 @@ import Vue from 'vue';
 import App from './App.vue';
 import router from './router';
 import VueI18n from 'vue-i18n';
-import f24Elements from '../index';
+import f24Elements from './plugins';
 
 const messages = {
     en: {},

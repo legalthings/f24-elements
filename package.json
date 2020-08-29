@@ -2,17 +2,18 @@
     "name": "f24-elements",
     "version": "0.1.0",
     "private": true,
-    "main": "index.ts",
+    "main": "src/plugins/index.ts",
     "author": {
         "name": "Renato Cardoso"
     },
     "files": [
-        "index.ts",
-        "src",
-        "types.d.ts"
+        "src/plugins/index.ts",
+        "src/components",
+        "src/assets",
+        "src/dependencies",
+        "src/plugins/types.d.ts"
     ],
-    "types": "types.d.ts",
-    "typings": "types.d.ts",
+    "types": "src/plugins/types.d.ts",
     "scripts": {
         "build": "vue-cli-service build",
         "lint": "vue-cli-service lint --fix",
