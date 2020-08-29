@@ -35,7 +35,7 @@
 </script>
 
 <style lang="scss" scoped>
-    @import '~css/imports';
+    @import '../../assets/scss/imports';
 
     .language-selector {
         display: flex;
