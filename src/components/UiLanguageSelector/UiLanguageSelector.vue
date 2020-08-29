@@ -22,7 +22,7 @@
     import { Component, Vue } from 'vue-property-decorator';
 
     @Component
-    export default class LanguageSelector extends Vue {
+    export default class UiLanguageSelector extends Vue {
         options = [
             { code: 'en', label: 'English' },
             { code: 'nl', label: 'Nederlands' }
