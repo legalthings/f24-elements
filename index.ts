@@ -44,7 +44,7 @@ const f24Elements: F24Elements = {
         Vue.component('ValidationProvider', ValidationProvider);
 
         // Set global method
-        Vue.prototype.$getValidationErrors = validators.getErrorMessage;
+        _Vue.prototype.$getValidationErrors = validators.getErrorMessage;
     }
 };
 
