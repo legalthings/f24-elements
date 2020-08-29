@@ -30,7 +30,7 @@
 }
 
 @mixin page-bg {
-    background: url("../images/page-bg.svg") no-repeat calc(100% + 900px) top $color-blue-gray-01;
+    background: url("/src/assets/images/page-bg.svg") no-repeat calc(100% + 900px) top $color-blue-gray-01;
 }
 
 @mixin breakpoint-down-value($value, $direction) {
