@@ -27,12 +27,7 @@
                 class="help"
                 :class="{'is-danger': errors}"
             >
-                <span
-                    v-for="(error, index) in errors"
-                    :key="index"
-                >
-                    {{ error }}
-                </span>
+                {{ $getValidationErrors(errors) }}
             </p>
             <div
                 v-for="option in items"

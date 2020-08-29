@@ -1,5 +1,6 @@
 import Vue, { VueConstructor } from 'vue';
 import Buefy from 'buefy';
+import * as components from 'buefy/src/components';
 import { ValidationObserver, ValidationProvider } from 'vee-validate';
 import {
     UiIcon,
@@ -20,7 +21,8 @@ export {
     UiInputCheckbox,
     UiInputDatepicker,
     UiInputRadio,
-    UiInputSelectbox
+    UiInputSelectbox,
+    components
 };
 
 export type F24Elements = {
