@@ -7,6 +7,7 @@ import UiInputSelectbox from './UiFormInputs/UiInputSelectbox/UiInputSelectbox.v
 import UiInputUpload from './UiFormInputs/UiInputUpload/UiInputUpload.vue';
 import UiIcon from './UiIcon/UiIcon.vue';
 import LanguageSelector from './LanguageSelector/LanguageSelector.vue';
+import UiHeader from './UiHeader/UiHeader.vue';
 
 export {
     UiInputText,
@@ -17,5 +18,6 @@ export {
     UiInputSelectbox,
     UiInputUpload,
     UiIcon,
-    LanguageSelector
+    LanguageSelector,
+    UiHeader
 };

@@ -5,7 +5,9 @@ export {
     UiInputRadio,
     UiInputSelectbox,
     UiInputUpload,
-    UiInputAddress
+    UiInputAddress,
+    UiLanguageSelector,
+    UiHeader
 } from '../components';
 
 declare const f24Elements: {
