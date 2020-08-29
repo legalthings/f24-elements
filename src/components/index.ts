@@ -6,6 +6,7 @@ import UiInputRadio from './UiFormInputs/UiInputRadio/UiInputRadio.vue';
 import UiInputSelectbox from './UiFormInputs/UiInputSelectbox/UiInputSelectbox.vue';
 import UiInputUpload from './UiFormInputs/UiInputUpload/UiInputUpload.vue';
 import UiIcon from './UiIcon/UiIcon.vue';
+import LanguageSelector from './LanguageSelector/LanguageSelector.vue';
 
 export {
     UiInputText,
@@ -15,5 +16,6 @@ export {
     UiInputRadio,
     UiInputSelectbox,
     UiInputUpload,
-    UiIcon
+    UiIcon,
+    LanguageSelector
 };

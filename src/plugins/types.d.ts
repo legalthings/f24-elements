@@ -1,13 +1,3 @@
-import {
-    UiInputAddress,
-    UiInputCheckbox,
-    UiInputDatepicker,
-    UiInputRadio,
-    UiInputSelectbox,
-    UiInputText,
-    UiInputUpload
-} from '../components';
-
 export {
     UiInputText,
     UiInputCheckbox,
@@ -16,7 +6,7 @@ export {
     UiInputSelectbox,
     UiInputUpload,
     UiInputAddress
-};
+} from '../components';
 
 declare const f24Elements: {
     install(vue: any, options: any): void;

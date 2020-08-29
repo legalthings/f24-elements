@@ -1,6 +1,6 @@
 ![elements](./docs/elements.png?raw=true)
 
-# f24 Elements
+# f24 Elementƨ
 
 This is Firm24 elements, everything you need for a vue project with Firm24 branding
 
