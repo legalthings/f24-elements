@@ -20,7 +20,6 @@
 
 <script lang="ts">
     import { Component, Vue } from 'vue-property-decorator';
-    import languageService from '@/services/language-service';
 
     @Component
     export default class LanguageSelector extends Vue {
@@ -30,7 +29,7 @@
         ];
 
         setLanguage() {
-            languageService.setLocaleLanguage(this.$i18n.locale);
+            this.$emit('setLanguage', this.$i18n.locale);
         }
     }
 </script>
