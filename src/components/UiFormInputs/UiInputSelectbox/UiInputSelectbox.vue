@@ -30,7 +30,7 @@
             >
                 <b-select
                     v-model="selected"
-                    :placeholder="placeholder"
+                    :placeholder="givenPlaceholder"
                     :expanded="expanded"
                     :rounded="rounded"
                     :loading="isLoading"
@@ -56,7 +56,7 @@
         @Prop() value: any;
         @Prop() tooltip!: string;
         @Prop() label!: string;
-        @Prop({ default: this.$i18n.t('VALIDATION.SELECT_OPTION') }) placeholder!: string;
+        @Prop() placeholder!: string;
         @Prop() isLoading!: boolean;
         @Prop() items!: Array<any>;
         @Prop() rounded!: boolean;
@@ -73,6 +73,10 @@
 
         set selected(v: any) {
             this.$emit('input', v);
+        }
+
+        get givenPlaceholder() {
+            return this.$i18n.t('VALIDATION.SELECT_OPTION');
         }
     }
 </script>
