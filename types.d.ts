@@ -22,4 +22,14 @@ declare const f24Elements: {
     install(vue: any, options: any): void;
 };
 
+declare module 'vue/types/vue' {
+    interface Vue {
+        $buefy: any
+    }
+
+    interface VueConstructor {
+        $buefy: any;
+    }
+}
+
 export default f24Elements;
