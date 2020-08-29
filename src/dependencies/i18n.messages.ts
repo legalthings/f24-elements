@@ -13,7 +13,8 @@ const messages = {
             NOT_POSSIBLE: 'Unfortunately, this is not possible.',
             VALID_ZIPCODE: 'Please use valid zipcode',
             NAME_CONTAINS_BV: 'Please note that the suffix BV will be added to the incorporartion automatically. You don\'t have to add it yourself',
-            DATE_SELECT: 'Please select a date'
+            DATE_SELECT: 'Please select a date',
+            SELECT_OPTION: 'Select an option'
         }
     },
     nl: {
@@ -30,7 +31,8 @@ const messages = {
             NOT_POSSIBLE: 'Dit is helaas niet mogelijk.',
             VALID_ZIPCODE: 'Gebruik een geldige postcode',
             NAME_CONTAINS_BV: 'Houd er rekening mee dat het achtervoegsel BV automatisch aan de oprichting wordt toegevoegd. U hoeft deze zelf niet toe te voegen',
-            DATE_SELECT: 'Selecteer een datum'
+            DATE_SELECT: 'Selecteer een datum',
+            SELECT_OPTION: 'Kies een optie'
         }
     }
 };

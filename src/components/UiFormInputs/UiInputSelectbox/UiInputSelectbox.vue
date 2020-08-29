@@ -26,7 +26,7 @@
             </b-notification>
             <b-field
                 :type="{ 'is-danger': errors[0], 'is-success': valid }"
-                :message="errors"
+                :message="$getValidationErrors(errors)"
             >
                 <b-select
                     v-model="selected"
@@ -56,7 +56,7 @@
         @Prop() value: any;
         @Prop() tooltip!: string;
         @Prop() label!: string;
-        @Prop() placeholder!: string;
+        @Prop({ default: this.$i18n.t('VALIDATION.SELECT_OPTION') }) placeholder!: string;
         @Prop() isLoading!: boolean;
         @Prop() items!: Array<any>;
         @Prop() rounded!: boolean;

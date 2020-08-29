@@ -36,7 +36,7 @@
                     :day-names="dayNames"
                     :min-date="min"
                     :max-date="max"
-                    :placeholder="$t('VALIDATORS.DATE_SELECT')"
+                    :placeholder="$t('VALIDATION.DATE_SELECT')"
                 />
             </b-field>
         </ValidationProvider>
