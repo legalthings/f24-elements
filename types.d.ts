@@ -6,6 +6,7 @@ import {
     SnackbarProgrammatic,
     ToastProgrammatic
 } from 'buefy/types/components';
+import * as components from 'buefy/src/components';
 
 import {
     UiInputAddress,
@@ -24,7 +25,8 @@ export {
     UiInputRadio,
     UiInputSelectbox,
     UiInputUpload,
-    UiInputAddress
+    UiInputAddress,
+    components
 };
 
 declare const f24Elements: {
@@ -44,6 +46,10 @@ export declare type BuefyNamespace = {
 declare module 'vue/types/vue' {
     interface Vue {
         $buefy: BuefyNamespace
+    }
+
+    interface VueConstructor {
+        $buefy: BuefyNamespace;
     }
 }
 
