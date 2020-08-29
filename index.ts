@@ -28,11 +28,11 @@ export type F24Elements = {
 };
 
 const f24Elements: F24Elements = {
-    install(Vue: any, options) {
-        Vue.use(Buefy, { defaultIconPack: 'fa' });
-        Vue.component('ValidationObserver', ValidationObserver);
-        Vue.component('ValidationProvider', ValidationProvider);
-        Vue.component('UiIcon', UiIcon);
+    install(_Vue: any, options) {
+        _Vue.use(Buefy, { defaultIconPack: 'fa' });
+        _Vue.component('ValidationObserver', ValidationObserver);
+        _Vue.component('ValidationProvider', ValidationProvider);
+        _Vue.component('UiIcon', UiIcon);
 
         // Add validation messages to main Vue i18n instance
         options.mergeLocaleMessage('nl', messages.nl);
