@@ -26,12 +26,6 @@ export type F24Elements = {
     install(Vue: VueConstructor<Vue>, options: any): void;
 };
 
-declare module 'vue/types/vue' {
-    interface Vue {
-        $buefy: any;
-    }
-}
-
 const f24Elements: F24Elements = {
     install(_Vue: any, options) {
         _Vue.component('ValidationObserver', ValidationObserver);
@@ -44,7 +38,7 @@ const f24Elements: F24Elements = {
 
         const validators = new Validators(options);
 
-        // Set global method
+        // Set global method get validation error
         _Vue.prototype.$getValidationErrors = validators.getErrorMessage;
     }
 };
