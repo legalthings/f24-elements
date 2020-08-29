@@ -1,5 +1,4 @@
 import Vue, { VueConstructor } from 'vue';
-import Buefy from 'buefy';
 import { ValidationObserver, ValidationProvider } from 'vee-validate';
 import {
     UiIcon,
@@ -27,9 +26,14 @@ export type F24Elements = {
     install(Vue: VueConstructor<Vue>, options: any): void;
 };
 
+declare module 'vue/types/vue' {
+    interface Vue {
+        $buefy: any;
+    }
+}
+
 const f24Elements: F24Elements = {
     install(_Vue: any, options) {
-        _Vue.use(Buefy, { defaultIconPack: 'fa' });
         _Vue.component('ValidationObserver', ValidationObserver);
         _Vue.component('ValidationProvider', ValidationProvider);
         _Vue.component('UiIcon', UiIcon);
@@ -39,9 +43,6 @@ const f24Elements: F24Elements = {
         options.mergeLocaleMessage('en', messages.en);
 
         const validators = new Validators(options);
-
-        Vue.component('ValidationObserver', ValidationObserver);
-        Vue.component('ValidationProvider', ValidationProvider);
 
         // Set global method
         _Vue.prototype.$getValidationErrors = validators.getErrorMessage;
