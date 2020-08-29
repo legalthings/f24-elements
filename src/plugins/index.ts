@@ -1,26 +1,20 @@
 import Vue, { VueConstructor } from 'vue';
 import { ValidationObserver, ValidationProvider } from 'vee-validate';
-import {
+import '../assets/scss/styles.scss';
+import Validators from '../dependencies/validators';
+import messages from '../dependencies/i18n.messages';
+import { UiIcon } from '../components';
+
+export {
     UiIcon,
     UiInputAddress,
     UiInputCheckbox,
     UiInputDatepicker,
     UiInputRadio,
     UiInputSelectbox,
-    UiInputText
-} from '../components';
-import '../assets/scss/styles.scss';
-import Validators from '../dependencies/validators';
-import messages from '../dependencies/i18n.messages';
-
-export {
     UiInputText,
-    UiInputAddress,
-    UiInputCheckbox,
-    UiInputDatepicker,
-    UiInputRadio,
-    UiInputSelectbox
-};
+    LanguageSelector
+} from '../components';
 
 export type F24Elements = {
     install(Vue: VueConstructor<Vue>, options: any): void;
