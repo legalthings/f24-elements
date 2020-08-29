@@ -26,7 +26,7 @@
             </b-notification>
             <b-field
                 :type="{ 'is-danger': errors[0], 'is-success': valid }"
-                :message="errors"
+                :message="$getValidationErrors(errors)"
             >
                 <b-datepicker
                     v-model="selected"
@@ -36,6 +36,7 @@
                     :day-names="dayNames"
                     :min-date="min"
                     :max-date="max"
+                    :placeholder="$t('VALIDATORS.DATE_SELECT')"
                 />
             </b-field>
         </ValidationProvider>
@@ -71,7 +72,7 @@
         }
 
         get selected() {
-            return new Date(this.value || this.defaultDate || new Date());
+            return this.value;
         }
 
         set selected(v: any) {
@@ -79,11 +80,11 @@
         }
 
         get monthNames() {
-            return this.months[this.locale];
+            return this.months[this.$i18n.locale];
         }
 
         get dayNames() {
-            return this.days[this.locale];
+            return this.days[this.$i18n.locale];
         }
     }
 </script>

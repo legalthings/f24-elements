@@ -11,8 +11,7 @@ import {
     UiInputText
 } from './src/components';
 import './src/assets/scss/styles.scss';
-import validators from './src/helpers/validators';
-import './src/dependencies/i18n';
+import Validators from './src/dependencies/validators';
 import messages from './src/dependencies/i18n.messages';
 
 export {
@@ -38,6 +37,8 @@ const f24Elements: F24Elements = {
         // Add validation messages to main Vue i18n instance
         options.mergeLocaleMessage('nl', messages.nl);
         options.mergeLocaleMessage('en', messages.en);
+
+        const validators = new Validators(options);
 
         // Set global method
         Vue.prototype.$getValidationErrors = validators.getErrorMessage;

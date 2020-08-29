@@ -1,6 +1,5 @@
 import { extend } from 'vee-validate';
 import { confirmed, email, min, min_value, numeric, required } from 'vee-validate/dist/rules';
-import i18n from '../dependencies/i18n';
 
 class Validators {
     atLeastOneDirector = {
@@ -43,17 +42,19 @@ class Validators {
         }
     };
 
-    getErrorMessage(errors: any) {
-        if (errors.length < 1) return;
-        const c = errors[0];
-        if (typeof c === 'object') {
-            return i18n.t('VALIDATION.' + c.m, { [Object.keys(c)[1]]: c[Object.keys(c)[1]] });
-        } else {
-            return i18n.t('VALIDATION.' + c);
-        }
-    }
+    getErrorMessage;
 
-    constructor() {
+    constructor(i18n) {
+        this.getErrorMessage = (errors: any) => {
+            if (errors.length < 1) return;
+            const c = errors[0];
+            if (typeof c === 'object') {
+                return i18n.t('VALIDATION.' + c.m, { [Object.keys(c)[1]]: c[Object.keys(c)[1]] });
+            } else {
+                return i18n.t('VALIDATION.' + c);
+            }
+        };
+
         /* This is an example to how to get the input value and pass it to the validator as error messgage
 
         extend('kvk', {
@@ -121,5 +122,4 @@ class Validators {
     }
 }
 
-const validators = new Validators();
-export default validators;
+export default Validators;
