@@ -13,7 +13,8 @@ export {
     UiInputRadio,
     UiInputSelectbox,
     UiInputText,
-    UiLanguageSelector
+    UiLanguageSelector,
+    UiHeader
 } from '../components';
 
 export type F24Elements = {
