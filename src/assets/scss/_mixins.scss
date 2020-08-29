@@ -29,6 +29,10 @@
     letter-spacing: normal;
 }
 
+@mixin page-bg {
+    background: url("../images/page-bg.svg") no-repeat calc(100% + 900px) top $color-blue-gray-01;
+}
+
 @mixin breakpoint-down-value($value, $direction) {
     @if $direction==height {
         @media (max-height: $value) and (min-width: $value) {

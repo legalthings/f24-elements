@@ -11,8 +11,9 @@ import {
     UiInputText
 } from './src/components';
 import './src/assets/scss/styles.scss';
-import Validators from './src/helpers/validators';
-import VueI18n from 'vue-i18n';
+import validators from './src/helpers/validators';
+import './src/dependencies/i18n';
+import messages from './src/dependencies/i18n.messages';
 
 export {
     UiInputText,
@@ -33,9 +34,13 @@ const f24Elements: F24Elements = {
         Vue.component('ValidationObserver', ValidationObserver);
         Vue.component('ValidationProvider', ValidationProvider);
         Vue.component('UiIcon', UiIcon);
-        Vue.use(VueI18n);
-        // eslint-disable-next-line @typescript-eslint/no-unused-vars
-        const val = new Validators(options);
+
+        // Add validation messages to main Vue i18n instance
+        options.mergeLocaleMessage('nl', messages.nl);
+        options.mergeLocaleMessage('en', messages.en);
+
+        // Set global method
+        Vue.prototype.$getValidationErrors = validators.getErrorMessage;
     }
 };
 

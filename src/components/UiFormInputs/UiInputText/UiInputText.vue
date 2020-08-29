@@ -24,9 +24,10 @@
             <b-notification :active.sync="isActive">
                 {{ tooltip }}
             </b-notification>
+
             <b-field
                 :type="{ 'is-danger': errors[0], 'is-success': valid }"
-                :message="errors"
+                :message="$getValidationErrors(errors)"
             >
                 <b-input
                     v-model="inputValue"

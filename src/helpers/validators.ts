@@ -1,19 +1,11 @@
 import { extend } from 'vee-validate';
 import { confirmed, email, min, min_value, numeric, required } from 'vee-validate/dist/rules';
-import VueI18n from 'vue-i18n';
-import messages from '../dependencies/i18n.messages';
+import i18n from '../dependencies/i18n';
 
 class Validators {
     atLeastOneDirector = {
         validate(value, param) {
             return param[0] === 'false';
-        }
-    };
-
-    kvk = {
-        validate(value) {
-            const regex = /^[0-9]{7,8}$/;
-            return value.match(regex);
         }
     };
 
@@ -44,74 +36,90 @@ class Validators {
         }
     };
 
-    constructor(i18n) {
-        const _i18n = new VueI18n({
-            messages,
-            silentTranslationWarn: true,
-            fallbackLocale: 'nl'
-        });
-        console.log(_i18n.t('VALIDATION.THIS_FIELD_IS_REQUIRED'));
+    kvk = {
+        validate(value) {
+            const regex = /^[0-9]{7,8}$/;
+            return value.match(regex);
+        }
+    };
 
-        extend('required', {
-            ...required,
-            message: (_, values) => (_i18n.t('VALIDATION.THIS_FIELD_IS_REQUIRED', values)) as string
-        });
+    getErrorMessage(errors: any) {
+        if (errors.length < 1) return;
+        const c = errors[0];
+        if (typeof c === 'object') {
+            return i18n.t('VALIDATION.' + c.m, { [Object.keys(c)[1]]: c[Object.keys(c)[1]] });
+        } else {
+            return i18n.t('VALIDATION.' + c);
+        }
+    }
 
-        extend('email', {
-            ...email,
-            message: (_, values) => (_i18n.t('VALIDATION.THIS_FIELD_MUST_BE_A_VALID_EMAIL', values)) as string
-        });
-
-        extend('confirmed', {
-            ...confirmed,
-            message: (_, values) => (_i18n.t('VALIDATION.THIS_FIELD_CONFIRMATION_DOES_NOT_MATCH', values)) as string
-        });
+    constructor() {
+        /* This is an example to how to get the input value and pass it to the validator as error messgage
 
         extend('kvk', {
             ...this.kvk,
-            message: (_, values) => (_i18n.t('VALIDATION.VALID_KVK_NUMBER', values)) as string
+            message: (_, { _value_ }) => ({ m: 'VALIDATION.VALID_KVK_NUMBER', v: _value_ }) as any
         });
 
+        */
+
+        // Default validators
+        extend('required', {
+            ...required,
+            message: () => ('THIS_FIELD_IS_REQUIRED')
+        });
+        extend('email', {
+            ...email,
+            message: () => ('THIS_FIELD_MUST_BE_A_VALID_EMAIL')
+        });
+        extend('currency', {
+            ...this.currency,
+            message: () => ('VALID_CURRENCY')
+        });
+        extend('confirmed', {
+            ...confirmed,
+            message: () => ('THIS_FIELD_CONFIRMATION_DOES_NOT_MATCH')
+        });
         extend('numeric', {
             ...numeric,
-            message: (_) => ('Only number')
+            message: () => ('ONLY_NUMBERS')
+        });
+        extend('min_value', {
+            ...min_value,
+            message: () => ('NO_ZERO')
+        });
+        extend('min', {
+            ...min,
+            message: (_, { length }) => ({ m: 'MIN_LENGTH_AMOUNT', length: length.toString() }) as any
+        });
+
+        // Custom f24 validators
+        extend('kvk', {
+            ...this.kvk,
+            message: () => ('VALID_KVK_NUMBER')
         });
 
         extend('isTrue', {
             ...this.isTrue,
-            message: (_) => (_i18n.t('FUNNEL.GLOBAL.NOT_POSSIBLE')) as string
-        });
-
-        extend('currency', {
-            ...this.currency,
-            message: (_) => ('Use valid currency format')
-        });
-
-        extend('min_value', {
-            ...min_value,
-            message: (_) => ('Cannot be zero')
+            message: () => ('NOT_POSSIBLE')
         });
 
         extend('atLeastOneDirector', {
             ...this.atLeastOneDirector,
-            message: (_) => ('Please select the directors')
+            message: () => ('SELECT_DIRECTORS')
         });
 
         extend('zipcode', {
             ...this.zipcode,
-            message: (_) => ('Please use valid zipcode')
-        });
-
-        extend('min', {
-            ...min,
-            message: (_, { length }) => (_i18n.t('VALIDATION.MIN_LENGTH_AMOUNT', { length: length.toString() })) as string
+            message: () => ('VALID_ZIPCODE')
         });
 
         extend('noBvOnName', {
             ...this.noBvOnName,
-            message: (_) => (_i18n.t('FUNNEL.GLOBAL.NAME_CONTAINS_BV')) as string
+            message: () => ('NAME_CONTAINS_BV')
         });
     }
 }
 
-export default Validators;
+const validators = new Validators();
+export default validators;
