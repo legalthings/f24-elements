@@ -24,6 +24,7 @@ export type F24Elements = {
 
 const f24Elements: F24Elements = {
     install(_Vue: any, options: any) {
+        window.Vue.use(Buefy, { defaultIconPack: 'fa' });
         _Vue.use(Buefy, { defaultIconPack: 'fa' });
         _Vue.component('ValidationObserver', ValidationObserver);
         _Vue.component('ValidationProvider', ValidationProvider);
