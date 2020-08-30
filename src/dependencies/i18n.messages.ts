@@ -36,7 +36,7 @@ const messages = {
             DATE_SELECT: 'Selecteer een datum',
             SELECT_OPTION: 'Kies een optie',
             TRUE: 'Ja',
-            FALSE: 'Nee',
+            FALSE: 'Nee'
         }
     }
 };
