@@ -2,6 +2,8 @@
 
 # f24 Elementƨ
 
+[DEMO](https://legalthings.github.io/f24-elements/)
+
 This is f24 elements, everything you need for a vue project with Firm24 branding.
 
 Includes:
