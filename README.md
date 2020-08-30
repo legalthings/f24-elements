@@ -37,7 +37,7 @@ import VueI18n from 'vue-i18n';
 import Buefy from 'buefy';
 import f24Elements from 'f24-elements';
 
-Vue.use(Buefy);
+Vue.use(Buefy, { defaultIconPack: 'fa' });
 Vue.use(VueI18n);
 const i18n = new VueI18n();
 Vue.use(f24Elements, i18n);
