@@ -4,6 +4,7 @@ import '../assets/scss/styles.scss';
 import Validators from '../dependencies/validators';
 import messages from '../dependencies/i18n.messages';
 import { UiIcon } from '../components';
+import Buefy from 'buefy';
 
 export {
     UiIcon,
@@ -23,6 +24,7 @@ export type F24Elements = {
 
 const f24Elements: F24Elements = {
     install(_Vue: any, options: any) {
+        _Vue.use(Buefy, { defaultIconPack: 'fa' });
         _Vue.component('ValidationObserver', ValidationObserver);
         _Vue.component('ValidationProvider', ValidationProvider);
         _Vue.component('UiIcon', UiIcon);
