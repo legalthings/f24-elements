@@ -6,6 +6,8 @@ import messages from '../dependencies/i18n.messages';
 import { UiIcon } from '../components';
 import Buefy from 'buefy';
 
+import ConfigComponent from 'buefy/src/utils/ConfigComponent';
+
 export {
     UiIcon,
     UiInputAddress,
@@ -42,3 +44,16 @@ const f24Elements: F24Elements = {
 };
 
 export default f24Elements;
+
+// export all components as vue plugin
+export * from 'buefy/src/components';
+// export programmatic component
+export { DialogProgrammatic } from 'buefy/src/components/dialog';
+export { LoadingProgrammatic } from 'buefy/src/components/loading';
+export { ModalProgrammatic } from 'buefy/src/components/modal';
+export { NotificationProgrammatic } from 'buefy/src/components/notification';
+export { SnackbarProgrammatic } from 'buefy/src/components/snackbar';
+export { ToastProgrammatic } from 'buefy/src/components/toast';
+export { ConfigComponent as ConfigProgrammatic };
+// export helpers
+export * from 'buefy/src/utils/helpers';
