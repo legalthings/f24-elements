@@ -79,11 +79,11 @@
         get defaultOptions() {
             return [
                 {
-                    name: 'Yes',
+                    name: this.$i18n.t('GLOBAL.TRUE'),
                     id: true
                 },
                 {
-                    name: 'No',
+                    name: this.$i18n.t('GLOBAL.FALSE'),
                     id: false
                 }
             ];
