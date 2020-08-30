@@ -32,7 +32,7 @@ npm i legalthings/f24-elements --save
 
 On main.ts use:
 
-```
+``` javascript
 import VueI18n from 'vue-i18n';
 import Buefy from 'buefy';
 import f24Elements from 'f24-elements';
@@ -62,13 +62,17 @@ new Vue({
             <UiInputText
                 v-model="input"
                 label="This is the label"
+                :name="inputText"
+                rules="required|min_value:1"
+                placeholder="Type something here..."
+                tooltip="This will be inside the tooltip box"
             />
-    </ValidationObserver?
+    </ValidationObserver>
 </template>
 
 <script lang="ts">
     import { Component, Vue } from 'vue-property-decorator';
-    import { UiInputDatepicker, UiInputText, UiInputSelectbox } from 'f24-elements';
+    import { UiInputText } from 'f24-elements';
 
     @Component({
         components: {
