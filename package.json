@@ -10,7 +10,7 @@
         "src/plugins/*",
         "src/components",
         "src/assets",
-        "src/dependencies"
+        "src/styles.scss"
     ],
     "types": "src/plugins/types.d.ts",
     "scripts": {
