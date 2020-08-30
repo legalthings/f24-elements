@@ -14,6 +14,7 @@
         "src/dependencies"
     ],
     "types": "src/plugins/types.d.ts",
+    "typings": "src/plugins/types.d.ts",
     "scripts": {
         "build": "vue-cli-service build",
         "lint": "vue-cli-service lint --fix",
