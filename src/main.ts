@@ -3,9 +3,9 @@ import App from './App.vue';
 import router from './router';
 import VueI18n from 'vue-i18n';
 import f24Elements from './plugins';
-// import Buefy from 'buefy';
+import Buefy from 'buefy';
 
-// Vue.use(Buefy, { defaultIconPack: 'fa' });
+Vue.use(Buefy);
 Vue.use(VueI18n);
 
 const messages = {

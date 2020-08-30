@@ -20,5 +20,9 @@
     })
     export default class Home extends Vue {
         text = null;
+
+        created() {
+            this.$buefy.toast.open('Renatex');
+        }
     }
 </script>

@@ -6,8 +6,6 @@ import messages from '../dependencies/i18n.messages';
 import { UiIcon } from '../components';
 import Buefy from 'buefy';
 
-import ConfigComponent from 'buefy/src/utils/ConfigComponent';
-
 export {
     UiIcon,
     UiInputAddress,
@@ -26,8 +24,11 @@ export type F24Elements = {
 
 const f24Elements: F24Elements = {
     install(_Vue: any, options: any) {
-        window.Vue.use(Buefy, { defaultIconPack: 'fa' });
-        _Vue.use(Buefy, { defaultIconPack: 'fa' });
+        Vue.use(Buefy, { defaultIconPack: 'fa' });
+
+        // TODO use only one instance of Buefy;
+        Vue.prototype.$buefy.config.setOptions({ defaultIconPack: 'fa' });
+
         _Vue.component('ValidationObserver', ValidationObserver);
         _Vue.component('ValidationProvider', ValidationProvider);
         _Vue.component('UiIcon', UiIcon);
@@ -44,16 +45,3 @@ const f24Elements: F24Elements = {
 };
 
 export default f24Elements;
-
-// export all components as vue plugin
-export * from 'buefy/src/components';
-// export programmatic component
-export { DialogProgrammatic } from 'buefy/src/components/dialog';
-export { LoadingProgrammatic } from 'buefy/src/components/loading';
-export { ModalProgrammatic } from 'buefy/src/components/modal';
-export { NotificationProgrammatic } from 'buefy/src/components/notification';
-export { SnackbarProgrammatic } from 'buefy/src/components/snackbar';
-export { ToastProgrammatic } from 'buefy/src/components/toast';
-export { ConfigComponent as ConfigProgrammatic };
-// export helpers
-export * from 'buefy/src/utils/helpers';

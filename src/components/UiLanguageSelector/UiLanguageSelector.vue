@@ -29,6 +29,7 @@
         ];
 
         setLanguage() {
+            // TODO maybe just emit the input value
             this.$emit('setLanguage', this.$i18n.locale);
         }
     }
