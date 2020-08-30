@@ -37,14 +37,6 @@
 <style lang="scss" scoped>
     @import '../../assets/scss/imports';
 
-    .language-selector {
-        display: flex;
-        justify-content: center;
-        width: 100%;
-        margin-top: 3 * $margin-default;
-        padding-top: 2 * $margin-default;
-    }
-
     /deep/ .field {
         display: flex;
         align-items: center;

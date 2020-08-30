@@ -5,7 +5,7 @@ import VueI18n from 'vue-i18n';
 import f24Elements from './plugins';
 import Buefy from 'buefy';
 
-Vue.use(Buefy);
+Vue.use(Buefy, { defaultIconPack: 'fa' });
 Vue.use(VueI18n);
 
 const messages = {
@@ -15,7 +15,8 @@ const messages = {
 const i18n = new VueI18n({
     messages,
     silentTranslationWarn: true,
-    fallbackLocale: 'nl'
+    fallbackLocale: 'nl',
+    locale: 'en'
 });
 
 Vue.use(f24Elements, i18n);
