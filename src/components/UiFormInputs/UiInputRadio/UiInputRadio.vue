@@ -79,11 +79,11 @@
         get defaultOptions() {
             return [
                 {
-                    name: this.$i18n.t('GLOBAL.TRUE'),
+                    name: this.$i18n.t('VALIDATION.TRUE'),
                     id: true
                 },
                 {
-                    name: this.$i18n.t('GLOBAL.FALSE'),
+                    name: this.$i18n.t('VALIDATION.FALSE'),
                     id: false
                 }
             ];
