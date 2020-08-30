@@ -7,11 +7,10 @@
         "name": "Renato Cardoso"
     },
     "files": [
-        "src/plugins/index.ts",
+        "src/plugins/*",
         "src/components",
         "src/assets",
-        "src/dependencies",
-        "src/plugins/types.d.ts"
+        "src/dependencies"
     ],
     "types": "src/plugins/types.d.ts",
     "scripts": {
