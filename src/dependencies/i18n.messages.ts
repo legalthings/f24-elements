@@ -17,6 +17,15 @@ const messages = {
             SELECT_OPTION: 'Select an option',
             TRUE: 'Yes',
             FALSE: 'No'
+        },
+        ADDRESS: {
+            STREET: 'Street',
+            POSTAL_CODE: 'Postal code',
+            NUMBER: 'Number',
+            ADDITION: 'Addition',
+            CITY: 'City',
+            PROVINCE: 'Province',
+            COUNTRY: 'Country'
         }
     },
     nl: {
@@ -37,6 +46,15 @@ const messages = {
             SELECT_OPTION: 'Kies een optie',
             TRUE: 'Ja',
             FALSE: 'Nee'
+        },
+        ADDRESS: {
+            STREET: 'Straat',
+            POSTAL_CODE: 'Postcode',
+            NUMBER: 'Huisnummer',
+            ADDITION: 'Toevoeging',
+            CITY: 'Plaatsnaam',
+            PROVINCE: 'Woonland',
+            COUNTRY: 'Land'
         }
     }
 };
