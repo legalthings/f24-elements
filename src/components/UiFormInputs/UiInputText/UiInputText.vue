@@ -39,6 +39,7 @@
                     :validation-message="validation"
                     :step="step"
                     :placeholder="placeholder"
+                    :size="size"
                 />
             </b-field>
         </ValidationProvider>
@@ -63,6 +64,7 @@
         @Prop() step!: string;
         @Prop() name!: string;
         @Prop() placeholder!: string;
+        @Prop() size!: string;
 
         isActive = false;
 

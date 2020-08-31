@@ -34,6 +34,7 @@
                     :expanded="expanded"
                     :rounded="rounded"
                     :loading="isLoading"
+                    :size="size"
                 >
                     <option
                         v-for="item in items"
@@ -62,6 +63,7 @@
         @Prop() rounded!: boolean;
         @Prop() expanded!: boolean;
         @Prop({ default: 'required' }) rules!: string;
+        @Prop() size!: string;
 
         isActive = false;
 

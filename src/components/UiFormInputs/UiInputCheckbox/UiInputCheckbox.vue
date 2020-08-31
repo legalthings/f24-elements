@@ -37,6 +37,7 @@
                 <b-checkbox
                     v-model="selected"
                     :native-value="option.id"
+                    :size="size"
                 >
                     {{ option.name }}
                     <slot />
@@ -62,6 +63,7 @@
         @Prop() tooltip!: string;
         @Prop() label!: string;
         @Prop() rules!: string;
+        @Prop() size!: string;
         @Prop({
             default: () => (
                 [

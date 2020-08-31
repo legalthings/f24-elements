@@ -37,6 +37,7 @@
                     :min-date="min"
                     :max-date="max"
                     :placeholder="$t('VALIDATION.DATE_SELECT')"
+                    :size="size"
                 />
             </b-field>
         </ValidationProvider>
@@ -58,6 +59,7 @@
         @Prop() max!: number;
         @Prop() locale!: string;
         @Prop() defaultDate!: number;
+        @Prop() size!: number;
 
         isActive = false;
 

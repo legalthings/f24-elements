@@ -41,6 +41,7 @@
                     <b-radio
                         v-model="selected"
                         :native-value="option.id"
+                        :size="size"
                     >
                         {{ option.name }}
                         <b-tooltip
@@ -69,6 +70,7 @@
         @Prop() inline!: boolean;
         @Prop() items!: Array<any>;
         @Prop({ default: 'required' }) rules!: string;
+        @Prop() size!: string;
 
         isActive = false;
 
