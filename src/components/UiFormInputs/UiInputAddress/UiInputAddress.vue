@@ -12,7 +12,6 @@
                 :label="$t('ADDRESS.NUMBER')"
                 class="column is-3"
                 :size="size"
-
             />
             <UiInputText
                 v-model="value.addition"
