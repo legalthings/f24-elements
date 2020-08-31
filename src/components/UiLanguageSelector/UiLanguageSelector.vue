@@ -4,7 +4,6 @@
             v-model="$i18n.locale"
             size="is-small"
             rounded
-            icon="language"
             @change.native="setLanguage"
         >
             <option
