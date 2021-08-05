@@ -1,50 +1,77 @@
 import { extend } from 'vee-validate';
 import { confirmed, email, min, min_value, numeric, required } from 'vee-validate/dist/rules';
 
+const kvk = {
+    validate(value: string) {
+        const regex = /^[0-9]{8}$/;
+        return !!value.match(regex);
+    }
+};
+
+const zipcode = {
+    validate(value: string) {
+        const regex = /^[1-9][0-9]{3}[ -\\.]?[A-Za-z]{2}$/;
+        return !!value.match(regex);
+    }
+};
+
+const isTrue = {
+    validate(value: boolean) {
+        return value === true;
+    }
+};
+
+const isHighRiskCountry = {
+    validate(value: any) {
+        return value.category <= 3;
+    }
+};
+
+const currency = {
+    validate(value: string) {
+        const regex = /^(\d+(?:[.,]\d{1,2})?|)$/;
+        return regex.test(value);
+    }
+};
+
+const noBvOnName = {
+    validate(value: string) {
+        const regex = /\bb\.?v\.?\b/gi;
+        return value.toLocaleLowerCase().search(regex) === -1;
+    }
+};
+
+const atLeastOneDirector = {
+    validate(value: any, param: any) {
+        return param[0] === 'false';
+    }
+};
+
+const emptyArray = {
+    validate(value: any, param: any) {
+        return value.length > 0;
+    }
+};
+
+const correctAge = {
+    validate(value: Date) {
+        const today = new Date();
+        const min = new Date(today.getFullYear() - 100, today.getMonth(), today.getDate());
+        const max = new Date(today.getFullYear() - 18, today.getMonth(), today.getDate());
+        return value < max && value > min;
+    }
+};
+
 class Validators {
     atLeastOneDirector = {
-        validate(value, param) {
+        validate(value: any, param: any) {
             return param[0] === 'false';
         }
     };
 
-    zipcode = {
-        validate(value) {
-            const regex = /^[1-9][0-9]{3}[ -\\.]?[A-Za-z]{2}$/;
-            return value.match(regex);
-        }
-    };
+    getErrorMessage: any;
 
-    isTrue = {
-        validate(value) {
-            return value === true;
-        }
-    };
-
-    currency = {
-        validate(value) {
-            const regex = /^(\d+(?:[.,]\d{1,2})?|)$/;
-            return regex.test(value);
-        }
-    };
-
-    noBvOnName = {
-        validate(value) {
-            const regex = /\bb\.?v\.?\b/gi;
-            return value.toLocaleLowerCase().search(regex) === -1;
-        }
-    };
-
-    kvk = {
-        validate(value) {
-            const regex = /^[0-9]{7,8}$/;
-            return value.match(regex);
-        }
-    };
-
-    getErrorMessage;
-
-    constructor(i18n) {
+    constructor(i18n: any) {
         this.getErrorMessage = (errors: any) => {
             if (errors.length < 1) return;
             const c = errors[0];
@@ -74,7 +101,7 @@ class Validators {
             message: () => ('THIS_FIELD_MUST_BE_A_VALID_EMAIL')
         });
         extend('currency', {
-            ...this.currency,
+            ...currency,
             message: () => ('VALID_CURRENCY')
         });
         extend('confirmed', {
@@ -96,30 +123,45 @@ class Validators {
 
         // Custom f24 validators
         extend('kvk', {
-            ...this.kvk,
+            ...kvk,
             message: () => ('VALID_KVK_NUMBER')
         });
 
         extend('isTrue', {
-            ...this.isTrue,
+            ...isTrue,
             message: () => ('NOT_POSSIBLE')
         });
 
         extend('atLeastOneDirector', {
-            ...this.atLeastOneDirector,
+            ...atLeastOneDirector,
             message: () => ('SELECT_DIRECTORS')
         });
 
         extend('zipcode', {
-            ...this.zipcode,
+            ...zipcode,
             message: () => ('VALID_ZIPCODE')
         });
 
         extend('noBvOnName', {
-            ...this.noBvOnName,
+            ...noBvOnName,
             message: () => ('NAME_CONTAINS_BV')
+        });
+
+        extend('emptyArray', {
+            ...emptyArray,
+            message: () => ('THIS_FIELD_IS_REQUIRED')
+        });
+
+        extend('correctAge', {
+            ...correctAge,
+            message: () => ('VALIDATION.CORRECT_AGE')
+        });
+
+        extend('highRiskCountry', {
+            ...isHighRiskCountry,
+            message: () => ('VALIDATION.NOT_POSSIBLE')
         });
     }
 }
 
-export default Validators;
+export { Validators as default, zipcode };
