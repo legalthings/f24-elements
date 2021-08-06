@@ -68,11 +68,11 @@
         loading = false;
 
         get isDutchZipCode() {
-            return zipcode.validate(this.value.postalCode);
+            return zipcode.validate(this.value?.postalCode);
         }
 
         get isNumber() {
-            return numeric.validate(this.value.number);
+            return numeric.validate(this.value?.number);
         }
 
         normalizePostalCode(p: string) {
