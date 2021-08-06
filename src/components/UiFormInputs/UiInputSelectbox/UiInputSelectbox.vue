@@ -53,8 +53,8 @@
                     </template>
 
                     <option
-                        v-else
                         v-for="item in items"
+                        v-else
                         :key="item.id"
                         :value="item.id"
                     >
