@@ -74,7 +74,7 @@
         }
 
         get selected() {
-            return this.value;
+            return this.value ? new Date(this.value) : null;
         }
 
         set selected(v: any) {

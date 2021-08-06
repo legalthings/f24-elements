@@ -36,8 +36,25 @@
                     :loading="isLoading"
                     :size="size"
                 >
+                    <template v-if="preferred">
+                        <optgroup
+                            v-for="(optgroup, i) in preferred"
+                            :key="i"
+                            :label="optgroup.label"
+                        >
+                            <option
+                                v-for="(option, ii) in optgroup.items"
+                                :key="ii"
+                                :value="option.id"
+                            >
+                                {{ option.name }}
+                            </option>
+                        </optgroup>
+                    </template>
+
                     <option
                         v-for="item in items"
+                        v-else
                         :key="item.id"
                         :value="item.id"
                     >
@@ -63,11 +80,10 @@
         @Prop() rounded!: boolean;
         @Prop() expanded!: boolean;
         @Prop({ default: 'required' }) rules!: string;
+        @Prop() preferred!: Array<any>;
         @Prop() size!: string;
 
         isActive = false;
-
-        // TODO add group option ie. for popular countries
 
         get selected() {
             return this.value;
