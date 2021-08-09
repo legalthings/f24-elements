@@ -36,6 +36,8 @@
                     :icon="icon"
                     :minlength="min"
                     :maxlength="max"
+                    :min="minsize"
+                    :max="maxsize"
                     :validation-message="validation"
                     :step="step"
                     :placeholder="placeholder"
@@ -57,6 +59,8 @@
         @Prop({ default: 'text' }) type!: string;
         @Prop() min!: number;
         @Prop() max!: number;
+        @Prop() minsize!: number;
+        @Prop() maxsize!: number;
         @Prop() validation!: string;
         @Prop() disabled!: boolean;
         @Prop({ default: 'required' }) rules!: string;

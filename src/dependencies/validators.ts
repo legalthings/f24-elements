@@ -1,5 +1,5 @@
 import { extend } from 'vee-validate';
-import { confirmed, email, min, min_value, numeric, required } from 'vee-validate/dist/rules';
+import { confirmed, email, min, min_value, max_value, numeric, required } from 'vee-validate/dist/rules';
 
 const kvk = {
     validate(value: string) {
@@ -115,6 +115,10 @@ class Validators {
         extend('min_value', {
             ...min_value,
             message: () => ('NO_ZERO')
+        });
+        extend('max', {
+            ...max_value,
+            message: (_, { max }) => ({ m: 'MAX_LENGTH_AMOUNT', length: max.toString() }) as any
         });
         extend('min', {
             ...min,
