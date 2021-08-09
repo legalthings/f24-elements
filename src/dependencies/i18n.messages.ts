@@ -39,7 +39,7 @@ const messages = {
             MIN_LENGTH_AMOUNT: 'Dit veld moet minimaal {length} karakters bevatten',
             NO_ZERO: 'Mag niet nul zijn',
             VALID_CURRENCY: 'Gebruik geldige valutanotatie',
-            MAX_LENGTH_AMOUNT: 'Max {size}',
+            MAX_LENGTH_AMOUNT: 'Max {length}',
             ONLY_NUMBERS: 'Alleen nummers',
             SELECT_DIRECTORS: 'Selecteer de bestuurders',
             NOT_POSSIBLE: 'Dit is helaas niet mogelijk.',
