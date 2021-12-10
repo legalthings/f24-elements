@@ -21,23 +21,26 @@
                     />
                 </div>
             </b-field>
-            <b-notification :active.sync="isActive">
+            <b-notification v-if="isActive">
                 {{ tooltip }}
             </b-notification>
             <b-field
-                :type="{ 'is-danger': errors[0], 'is-success': valid }"
+                :type="{ 'is-danger': errors[0], 'is-success': rules && valid }"
                 :message="$getValidationErrors(errors)"
             >
                 <b-datepicker
                     v-model="selected"
                     icon="calendar-day"
-                    position="is-top-left"
-                    :month-names="monthNames"
-                    :day-names="dayNames"
+                    :position="position"
+                    :placeholder="$t('VALIDATION.DATE_SELECT')"
                     :min-date="min"
                     :max-date="max"
-                    :placeholder="$t('VALIDATION.DATE_SELECT')"
+                    :locale="$i18n.locale"
+                    :editable="editable"
                     :size="size"
+                    :range="range"
+                    :rounded="rounded"
+                    :type="type"
                 />
             </b-field>
         </ValidationProvider>
@@ -45,7 +48,7 @@
 </template>
 
 <script lang="ts">
-    import { Component, Prop, Vue } from 'vue-property-decorator';
+    import { Component, Prop, Vue, Emit } from 'vue-property-decorator';
 
     @Component
     export default class UiInputDatepicker extends Vue {
@@ -54,39 +57,29 @@
         @Prop() label!: string;
         @Prop() placeholder!: string;
         @Prop() expanded!: boolean;
+        @Prop() min!: any;
+        @Prop() max!: any;
+        @Prop({ default: true }) editable!: boolean;
+        @Prop({ default: false }) range!: boolean;
+        @Prop({ default: 'is-top-left' }) position!: string;
+        @Prop() size!: string;
         @Prop({ default: 'required' }) rules!: string;
-        @Prop() min!: number;
-        @Prop() max!: number;
-        @Prop() locale!: string;
-        @Prop() defaultDate!: number;
-        @Prop() size!: number;
+        @Prop() rounded!: string;
+        @Prop() type!: string;
 
         isActive = false;
 
-        months: any = {
-            en: ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'],
-            nl: ['Januari', 'Februari', 'Maart', 'April', 'Mei', 'Juni', 'Juli', 'Augustus']
-        }
-
-        days: any = {
-            en: ['Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat', 'Sun'],
-            nl: ['Ma', 'Di', 'Wo', 'Do', 'Vr', 'Za', 'Zo']
-        }
-
         get selected() {
-            return this.value ? new Date(this.value) : null;
+            return this.value && !this.range ? new Date(this.value) : this.value;
         }
 
-        set selected(v: any) {
-            this.$emit('input', v);
+        set selected(value: any) {
+            this.onDateChange(value);
         }
 
-        get monthNames() {
-            return this.months[this.$i18n.locale];
-        }
-
-        get dayNames() {
-            return this.days[this.$i18n.locale];
+        @Emit('input')
+        onDateChange(value: Date | Date[]): Date | Date[] {
+            return value;
         }
     }
 </script>
