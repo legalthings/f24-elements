@@ -5,7 +5,7 @@ import {
     Countries,
     CountryList,
     CountryOption
-} from '@/components/UiFormInputs/UiInputCountry/country.types';
+} from './country.types';
 
 const countries: Countries = require('./countries.json');
 
@@ -43,7 +43,7 @@ export default {
         return [
             {
                 label: i18n.t('GLOBAL.POPULAR_COUNTRIES') as string,
-                items: this.countryList.preferred?.filter(c => c.id.id !== 'NL')
+                items: this.countryList.preferred?.filter((c: any) => c.id.id !== 'NL')
             },
             {
                 label: i18n.t('GLOBAL.OTHER_COUNTRIES') as string,

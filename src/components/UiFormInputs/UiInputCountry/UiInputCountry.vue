@@ -14,9 +14,9 @@
 
 <script lang="ts">
     import { Component, Prop, Vue } from 'vue-property-decorator';
-    import { Country, Countries } from '@/components/UiFormInputs/UiInputCountry/country.types';
+    import { Country, Countries } from './country.types';
     import countriesService from './countries.service';
-    import UiInputSelectbox from '@/components/UiFormInputs/UiInputSelectbox/UiInputSelectbox.vue';
+    import UiInputSelectbox from '../UiInputSelectbox/UiInputSelectbox.vue';
 
     @Component({
         components: {
