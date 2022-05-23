@@ -1,4 +1,5 @@
 export {
+    UiInputCountry,
     UiInputText,
     UiInputCheckbox,
     UiInputDatepicker,
