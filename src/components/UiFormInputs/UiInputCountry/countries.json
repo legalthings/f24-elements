@@ -1,0 +1,3002 @@
+[
+    {
+        "order": 0,
+        "category": 1,
+        "icon": "🇳🇱",
+        "name": "Netherlands",
+        "native": "Nederland",
+        "translations": {
+            "en": "Netherlands",
+            "nl": "Nederland"
+        },
+        "id": "NL"
+    },
+    {
+        "order": 1,
+        "category": 1,
+        "icon": "🇧🇪",
+        "name": "Belgium",
+        "native": "België",
+        "translations": {
+            "en": "Belgium",
+            "nl": "België"
+        },
+        "id": "BE"
+    },
+    {
+        "order": 1,
+        "category": 1,
+        "icon": "🇫🇷",
+        "name": "France",
+        "native": "France",
+        "translations": {
+            "en": "France",
+            "nl": "Frankrijk"
+        },
+        "id": "FR"
+    },
+    {
+        "order": 1,
+        "category": 1,
+        "icon": "🇩🇪",
+        "name": "Germany",
+        "native": "Deutschland",
+        "translations": {
+            "en": "Germany",
+            "nl": "Duitsland"
+        },
+        "id": "DE"
+    },
+    {
+        "order": 1,
+        "category": 2,
+        "icon": "🇺🇸",
+        "name": "United States",
+        "native": "United States",
+        "translations": {
+            "en": "United States of America",
+            "nl": "Verenigde Staten van Amerika"
+        },
+        "id": "US"
+    },
+    {
+        "order": 1,
+        "category": 2,
+        "icon": "🇬🇧",
+        "name": "United Kingdom",
+        "native": "United Kingdom",
+        "translations": {
+            "en": "United Kingdom",
+            "nl": "Verenigd Koninkrijk"
+        },
+        "id": "GB"
+    },
+    {
+        "order": 2,
+        "category": 5,
+        "icon": "🇦🇫",
+        "name": "Afghanistan",
+        "native": "افغانستان",
+        "translations": {
+            "en": "Afghanistan",
+            "nl": "Afghanistan"
+        },
+        "id": "AF"
+    },
+    {
+        "order": 2,
+        "category": 5,
+        "icon": "🇦🇱",
+        "name": "Albania",
+        "native": "Shqipëria",
+        "translations": {
+            "en": "Albania",
+            "nl": "Albanië"
+        },
+        "id": "AL"
+    },
+    {
+        "order": 2,
+        "category": 4,
+        "icon": "🇧🇩",
+        "name": "Bangladesh",
+        "native": "Bangladesh",
+        "translations": {
+            "en": "Bangladesh",
+            "nl": "Bangladesh"
+        },
+        "id": "BD"
+    },
+    {
+        "order": 2,
+        "category": 4,
+        "icon": "🇦🇴",
+        "name": "Angola",
+        "native": "Angola",
+        "translations": {
+            "en": "Angola",
+            "nl": "Angola"
+        },
+        "id": "AO"
+    },
+    {
+        "order": 2,
+        "category": 4,
+        "icon": "🇧🇭",
+        "name": "Bahrain",
+        "native": "‏البحرين",
+        "translations": {
+            "en": "Bahrain",
+            "nl": "Bahrein"
+        },
+        "id": "BH"
+    },
+    {
+        "order": 2,
+        "category": 4,
+        "icon": "🇩🇿",
+        "name": "Algeria",
+        "native": "الجزائر",
+        "translations": {
+            "en": "Algeria",
+            "nl": "Algerije"
+        },
+        "id": "DZ"
+    },
+    {
+        "order": 2,
+        "category": 3,
+        "icon": "🇦🇩",
+        "name": "Andorra",
+        "native": "Andorra",
+        "translations": {
+            "en": "Andorra",
+            "nl": "Andorra"
+        },
+        "id": "AD"
+    },
+    {
+        "order": 2,
+        "category": 4,
+        "icon": "🇦🇲",
+        "name": "Armenia",
+        "native": "Հայաստան",
+        "translations": {
+            "en": "Armenia",
+            "nl": "Armenië"
+        },
+        "id": "AM"
+    },
+    {
+        "order": 2,
+        "category": 2,
+        "icon": "🇦🇺",
+        "name": "Australia",
+        "native": "Australia",
+        "translations": {
+            "en": "Australia",
+            "nl": "Australië"
+        },
+        "id": "AU"
+    },
+    {
+        "order": 2,
+        "category": 4,
+        "icon": "🇦🇮",
+        "name": "Anguilla",
+        "native": "Anguilla",
+        "translations": {
+            "en": "Anguilla",
+            "nl": "Anguilla"
+        },
+        "id": "AI"
+    },
+    {
+        "order": 2,
+        "category": 2,
+        "icon": "🇦🇹",
+        "name": "Austria",
+        "native": "Österreich",
+        "translations": {
+            "en": "Austria",
+            "nl": "Oostenrijk"
+        },
+        "id": "AT"
+    },
+    {
+        "order": 2,
+        "category": 4,
+        "icon": "🇦🇿",
+        "name": "Azerbaijan",
+        "native": "Azərbaycan",
+        "translations": {
+            "en": "Azerbaijan",
+            "nl": "Azerbeidzjan"
+        },
+        "id": "AZ"
+    },
+    {
+        "order": 2,
+        "category": 4,
+        "icon": "🇧🇾",
+        "name": "Belarus",
+        "native": "Белару́сь",
+        "translations": {
+            "en": "Belarus",
+            "nl": "Wit-Rusland"
+        },
+        "id": "BY"
+    },
+    {
+        "order": 2,
+        "category": 4,
+        "icon": "🇦🇸",
+        "name": "American Samoa",
+        "native": "American Samoa",
+        "translations": {
+            "en": "American Samoa",
+            "nl": "Amerikaans-Samoa"
+        },
+        "id": "AS"
+    },
+    {
+        "order": 2,
+        "category": 4,
+        "icon": "🇦🇶",
+        "name": "Antarctica",
+        "native": "Antarctica",
+        "translations": {
+            "en": "Antarctica",
+            "nl": "Antarctica"
+        },
+        "id": "AQ"
+    },
+    {
+        "order": 2,
+        "category": 5,
+        "icon": "🇧🇧",
+        "name": "Barbados",
+        "native": "Barbados",
+        "translations": {
+            "en": "Barbados",
+            "nl": "Barbados"
+        },
+        "id": "BB"
+    },
+    {
+        "order": 2,
+        "category": 3,
+        "icon": "🇦🇷",
+        "name": "Argentina",
+        "native": "Argentina",
+        "translations": {
+            "en": "Argentina",
+            "nl": "Argentinië"
+        },
+        "id": "AR"
+    },
+    {
+        "order": 2,
+        "category": 4,
+        "icon": "🇦🇬",
+        "name": "Antigua and Barbuda",
+        "native": "Antigua and Barbuda",
+        "translations": {
+            "en": "Antigua and Barbuda",
+            "nl": "Antigua en Barbuda"
+        },
+        "id": "AG"
+    },
+    {
+        "order": 2,
+        "category": 2,
+        "icon": "🇦🇼",
+        "name": "Aruba",
+        "native": "Aruba",
+        "translations": {
+            "en": "Aruba",
+            "nl": "Aruba"
+        },
+        "id": "AW"
+    },
+    {
+        "order": 2,
+        "category": 5,
+        "icon": "🇧🇼",
+        "name": "Botswana",
+        "native": "Botswana",
+        "translations": {
+            "en": "Botswana",
+            "nl": "Botswana"
+        },
+        "id": "BW"
+    },
+    {
+        "order": 2,
+        "category": 4,
+        "icon": "🇨🇮",
+        "name": "Ivory Coast",
+        "native": "Côte d'Ivoire",
+        "translations": {
+            "en": "Cote D'Ivoire",
+            "nl": "Ivoorkust"
+        },
+        "id": "CI"
+    },
+    {
+        "order": 2,
+        "category": 3,
+        "icon": "🇨🇦",
+        "name": "Canada",
+        "native": "Canada",
+        "translations": {
+            "en": "Canada",
+            "nl": "Canada"
+        },
+        "id": "CA"
+    },
+    {
+        "order": 2,
+        "category": 4,
+        "icon": "🇧🇲",
+        "name": "Bermuda",
+        "native": "Bermuda",
+        "translations": {
+            "en": "Bermuda",
+            "nl": "Bermuda"
+        },
+        "id": "BM"
+    },
+    {
+        "order": 2,
+        "category": 4,
+        "icon": "🇨🇫",
+        "name": "Central African Republic",
+        "native": "Ködörösêse tî Bêafrîka",
+        "translations": {
+            "en": "Central African Republic",
+            "nl": "Centraal-Afrikaanse Republiek"
+        },
+        "id": "CF"
+    },
+    {
+        "order": 2,
+        "category": 3,
+        "icon": "🇧🇬",
+        "name": "Bulgaria",
+        "native": "България",
+        "translations": {
+            "en": "Bulgaria",
+            "nl": "Bulgarije"
+        },
+        "id": "BG"
+    },
+    {
+        "order": 2,
+        "category": 3,
+        "icon": "🇨🇱",
+        "name": "Chile",
+        "native": "Chile",
+        "translations": {
+            "en": "Chile",
+            "nl": "Chili"
+        },
+        "id": "CL"
+    },
+    {
+        "order": 2,
+        "category": 4,
+        "icon": "🇻🇬",
+        "name": "British Virgin Islands",
+        "native": "British Virgin Islands",
+        "translations": {
+            "en": "Virgin Islands, British",
+            "nl": "Maagdeneilanden, Britse"
+        },
+        "id": "VG"
+    },
+    {
+        "order": 2,
+        "category": 4,
+        "icon": "🇮🇴",
+        "name": "British Indian Ocean Territory",
+        "native": "British Indian Ocean Territory",
+        "translations": {
+            "en": "British Indian Ocean Territory",
+            "nl": "Brits Indische oceaan"
+        },
+        "id": "IO"
+    },
+    {
+        "order": 2,
+        "category": 4,
+        "icon": "🇧🇻",
+        "name": "Bouvet Island",
+        "native": "Bouvetøya",
+        "translations": {
+            "en": "Bouvet Island",
+            "nl": "Bouvet Eiland"
+        },
+        "id": "BV"
+    },
+    {
+        "order": 2,
+        "category": 4,
+        "icon": "🇧🇴",
+        "name": "Bolivia",
+        "native": "Bolivia",
+        "translations": {
+            "en": "Bolivia",
+            "nl": "Bolivië"
+        },
+        "id": "BO"
+    },
+    {
+        "order": 2,
+        "category": 5,
+        "icon": "🇰🇭",
+        "name": "Cambodia",
+        "native": "Kâmpŭchéa",
+        "translations": {
+            "en": "Cambodia",
+            "nl": "Cambodja"
+        },
+        "id": "KH"
+    },
+    {
+        "order": 2,
+        "category": 5,
+        "icon": "🇧🇫",
+        "name": "Burkina Faso",
+        "native": "Burkina Faso",
+        "translations": {
+            "en": "Burkina Faso",
+            "nl": "Burkina Faso"
+        },
+        "id": "BF"
+    },
+    {
+        "order": 2,
+        "category": 4,
+        "icon": "🇧🇮",
+        "name": "Burundi",
+        "native": "Burundi",
+        "translations": {
+            "en": "Burundi",
+            "nl": "Burundi"
+        },
+        "id": "BI"
+    },
+    {
+        "order": 2,
+        "category": 4,
+        "icon": "🇨🇻",
+        "name": "Cape Verde",
+        "native": "Cabo Verde",
+        "translations": {
+            "en": "Cape Verde",
+            "nl": "Kaapverdië"
+        },
+        "id": "CV"
+    },
+    {
+        "order": 2,
+        "category": 3,
+        "icon": "🇧🇷",
+        "name": "Brazil",
+        "native": "Brasil",
+        "translations": {
+            "en": "Brazil",
+            "nl": "Brazilië"
+        },
+        "id": "BR"
+    },
+    {
+        "order": 2,
+        "category": 4,
+        "icon": "🇧🇳",
+        "name": "Brunei",
+        "native": "Negara Brunei Darussalam",
+        "translations": {
+            "en": "Brunei Darussalam",
+            "nl": "Brunei Darussalam"
+        },
+        "id": "BN"
+    },
+    {
+        "order": 2,
+        "category": 4,
+        "icon": "🇧🇿",
+        "name": "Belize",
+        "native": "Belize",
+        "translations": {
+            "en": "Belize",
+            "nl": "Belize"
+        },
+        "id": "BZ"
+    },
+    {
+        "order": 2,
+        "category": 4,
+        "icon": "🇹🇩",
+        "name": "Chad",
+        "native": "Tchad",
+        "translations": {
+            "en": "Chad",
+            "nl": "Tsjaad"
+        },
+        "id": "TD"
+    },
+    {
+        "order": 2,
+        "category": 4,
+        "icon": "🇧🇯",
+        "name": "Benin",
+        "native": "Bénin",
+        "translations": {
+            "en": "Benin",
+            "nl": "Benin"
+        },
+        "id": "BJ"
+    },
+    {
+        "order": 2,
+        "category": 4,
+        "icon": "🇧🇹",
+        "name": "Bhutan",
+        "native": "ʼbrug-yul",
+        "translations": {
+            "en": "Bhutan",
+            "nl": "Bhutan"
+        },
+        "id": "BT"
+    },
+    {
+        "order": 2,
+        "category": 4,
+        "icon": "🇨🇳",
+        "name": "China",
+        "native": "中国",
+        "translations": {
+            "en": "China",
+            "nl": "China"
+        },
+        "id": "CN"
+    },
+    {
+        "order": 2,
+        "category": 4,
+        "icon": "🇨🇲",
+        "name": "Cameroon",
+        "native": "Cameroon",
+        "translations": {
+            "en": "Cameroon",
+            "nl": "Kameroen"
+        },
+        "id": "CM"
+    },
+    {
+        "order": 2,
+        "category": 4,
+        "icon": "🇧🇦",
+        "name": "Bosnia and Herzegovina",
+        "native": "Bosna i Hercegovina",
+        "translations": {
+            "en": "Bosnia and Herzegovina",
+            "nl": "Bosnië-Herzegovina"
+        },
+        "id": "BA"
+    },
+    {
+        "order": 2,
+        "category": 5,
+        "icon": "🇰🇾",
+        "name": "Cayman Islands",
+        "native": "Cayman Islands",
+        "translations": {
+            "en": "Cayman Islands",
+            "nl": "Kaaimaneilanden"
+        },
+        "id": "KY"
+    },
+    {
+        "order": 2,
+        "category": 4,
+        "icon": "🇫🇯",
+        "name": "Fiji",
+        "native": "Fiji",
+        "translations": {
+            "en": "Fiji",
+            "nl": "Fiji"
+        },
+        "id": "FJ"
+    },
+    {
+        "order": 2,
+        "category": 4,
+        "icon": "🇩🇴",
+        "name": "Dominican Republic",
+        "native": "República Dominicana",
+        "translations": {
+            "en": "Dominican Republic",
+            "nl": "Dominicaanse Republiek"
+        },
+        "id": "DO"
+    },
+    {
+        "order": 2,
+        "category": 3,
+        "icon": "🇨🇿",
+        "name": "Czech Republic",
+        "native": "Česká republika",
+        "translations": {
+            "en": "Czech Republic",
+            "nl": "Tsjechië"
+        },
+        "id": "CZ"
+    },
+    {
+        "order": 2,
+        "category": 4,
+        "icon": "🇲🇰",
+        "name": "North Macedonia",
+        "native": "Северна Македонија",
+        "translations": {
+            "en": "North Macedonia, Republic of",
+            "nl": "Noord-Macedonië"
+        },
+        "id": "MK"
+    },
+    {
+        "order": 2,
+        "category": 4,
+        "icon": "🇬🇫",
+        "name": "French Guiana",
+        "native": "Guyane française",
+        "translations": {
+            "en": "French Guiana",
+            "nl": "Frans-Guyana"
+        },
+        "id": "GF"
+    },
+    {
+        "order": 2,
+        "category": 4,
+        "icon": "🇵🇫",
+        "name": "French Polynesia",
+        "native": "Polynésie française",
+        "translations": {
+            "en": "French Polynesia",
+            "nl": "Frans-Polynesië"
+        },
+        "id": "PF"
+    },
+    {
+        "order": 2,
+        "category": 4,
+        "icon": "🇨🇴",
+        "name": "Colombia",
+        "native": "Colombia",
+        "translations": {
+            "en": "Colombia",
+            "nl": "Colombia"
+        },
+        "id": "CO"
+    },
+    {
+        "order": 2,
+        "category": 4,
+        "icon": "🇨🇨",
+        "name": "Cocos [Keeling] Islands",
+        "native": "Cocos (Keeling) Islands",
+        "translations": {
+            "en": "Cocos (Keeling) Islands",
+            "nl": "Cocoseilanden"
+        },
+        "id": "CC"
+    },
+    {
+        "order": 2,
+        "category": 4,
+        "icon": "🇰🇲",
+        "name": "Comoros",
+        "native": "Komori",
+        "translations": {
+            "en": "Comoros",
+            "nl": "Comoren"
+        },
+        "id": "KM"
+    },
+    {
+        "order": 2,
+        "category": 4,
+        "icon": "🇨🇷",
+        "name": "Costa Rica",
+        "native": "Costa Rica",
+        "translations": {
+            "en": "Costa Rica",
+            "nl": "Costa Rica"
+        },
+        "id": "CR"
+    },
+    {
+        "order": 2,
+        "category": 3,
+        "icon": "🇭🇷",
+        "name": "Croatia",
+        "native": "Hrvatska",
+        "translations": {
+            "en": "Croatia",
+            "nl": "Kroatië"
+        },
+        "id": "HR"
+    },
+    {
+        "order": 2,
+        "category": 4,
+        "icon": "🇨🇩",
+        "name": "Democratic Republic of the Congo",
+        "native": "République démocratique du Congo",
+        "translations": {
+            "en": "Congo, the Democratic Republic of the",
+            "nl": "Congo, Democratische Republiek"
+        },
+        "id": "CD"
+    },
+    {
+        "order": 2,
+        "category": 4,
+        "icon": "🇩🇯",
+        "name": "Djibouti",
+        "native": "Djibouti",
+        "translations": {
+            "en": "Djibouti",
+            "nl": "Djibouti"
+        },
+        "id": "DJ"
+    },
+    {
+        "order": 2,
+        "category": 4,
+        "icon": "🇸🇻",
+        "name": "El Salvador",
+        "native": "El Salvador",
+        "translations": {
+            "en": "El Salvador",
+            "nl": "El Salvador"
+        },
+        "id": "SV"
+    },
+    {
+        "order": 2,
+        "category": 4,
+        "icon": "🇨🇺",
+        "name": "Cuba",
+        "native": "Cuba",
+        "translations": {
+            "en": "Cuba",
+            "nl": "Cuba"
+        },
+        "id": "CU"
+    },
+    {
+        "order": 2,
+        "category": 4,
+        "icon": "🇨🇽",
+        "name": "Christmas Island",
+        "native": "Christmas Island",
+        "translations": {
+            "en": "Christmas Island",
+            "nl": "Christmaseiland"
+        },
+        "id": "CX"
+    },
+    {
+        "order": 2,
+        "category": 4,
+        "icon": "🇪🇬",
+        "name": "Egypt",
+        "native": "مصر‎",
+        "translations": {
+            "en": "Egypt",
+            "nl": "Egypte"
+        },
+        "id": "EG"
+    },
+    {
+        "order": 2,
+        "category": 4,
+        "icon": "🇬🇶",
+        "name": "Equatorial Guinea",
+        "native": "Guinea Ecuatorial",
+        "translations": {
+            "en": "Equatorial Guinea",
+            "nl": "Equatoriaal-Guinea"
+        },
+        "id": "GQ"
+    },
+    {
+        "order": 2,
+        "category": 2,
+        "icon": "🇫🇮",
+        "name": "Finland",
+        "native": "Suomi",
+        "translations": {
+            "en": "Finland",
+            "nl": "Finland"
+        },
+        "id": "FI"
+    },
+    {
+        "order": 2,
+        "category": 4,
+        "icon": "🇪🇷",
+        "name": "Eritrea",
+        "native": "ኤርትራ",
+        "translations": {
+            "en": "Eritrea",
+            "nl": "Eritrea"
+        },
+        "id": "ER"
+    },
+    {
+        "order": 2,
+        "category": 3,
+        "icon": "🇪🇪",
+        "name": "Estonia",
+        "native": "Eesti",
+        "translations": {
+            "en": "Estonia",
+            "nl": "Estland"
+        },
+        "id": "EE"
+    },
+    {
+        "order": 2,
+        "category": 4,
+        "icon": "🇪🇹",
+        "name": "Ethiopia",
+        "native": "ኢትዮጵያ",
+        "translations": {
+            "en": "Ethiopia",
+            "nl": "Ethiopië"
+        },
+        "id": "ET"
+    },
+    {
+        "order": 2,
+        "category": 4,
+        "icon": "🇨🇬",
+        "name": "Republic of the Congo",
+        "native": "République du Congo",
+        "translations": {
+            "en": "Congo",
+            "nl": "Congo, Volksrepubliek"
+        },
+        "id": "CG"
+    },
+    {
+        "order": 2,
+        "category": 4,
+        "icon": "🇩🇲",
+        "name": "Dominica",
+        "native": "Dominica",
+        "translations": {
+            "en": "Dominica",
+            "nl": "Dominica"
+        },
+        "id": "DM"
+    },
+    {
+        "order": 2,
+        "category": 2,
+        "icon": "🇩🇰",
+        "name": "Denmark",
+        "native": "Danmark",
+        "translations": {
+            "en": "Denmark",
+            "nl": "Denemarken"
+        },
+        "id": "DK"
+    },
+    {
+        "order": 2,
+        "category": 4,
+        "icon": "🇫🇴",
+        "name": "Faroe Islands",
+        "native": "Føroyar",
+        "translations": {
+            "en": "Faroe Islands",
+            "nl": "Faeröer"
+        },
+        "id": "FO"
+    },
+    {
+        "order": 2,
+        "category": 4,
+        "icon": "🇹🇱",
+        "name": "East Timor",
+        "native": "Timor-Leste",
+        "translations": {
+            "en": "Timor-Leste",
+            "nl": "Timor Leste"
+        },
+        "id": "TL"
+    },
+    {
+        "order": 2,
+        "category": 3,
+        "icon": "🇨🇾",
+        "name": "Cyprus",
+        "native": "Κύπρος",
+        "translations": {
+            "en": "Cyprus",
+            "nl": "Cyprus"
+        },
+        "id": "CY"
+    },
+    {
+        "order": 2,
+        "category": 4,
+        "icon": "🇪🇨",
+        "name": "Ecuador",
+        "native": "Ecuador",
+        "translations": {
+            "en": "Ecuador",
+            "nl": "Ecuador"
+        },
+        "id": "EC"
+    },
+    {
+        "order": 2,
+        "category": 4,
+        "icon": "🇫🇰",
+        "name": "Falkland Islands",
+        "native": "Falkland Islands",
+        "translations": {
+            "en": "Falkland Islands (Malvinas)",
+            "nl": "Falklandeilanden"
+        },
+        "id": "FK"
+    },
+    {
+        "order": 2,
+        "category": 4,
+        "icon": "🇨🇰",
+        "name": "Cook Islands",
+        "native": "Cook Islands",
+        "translations": {
+            "en": "Cook Islands",
+            "nl": "Cookeilanden"
+        },
+        "id": "CK"
+    },
+    {
+        "order": 2,
+        "category": 4,
+        "icon": "🇰🇼",
+        "name": "Kuwait",
+        "native": "الكويت",
+        "translations": {
+            "en": "Kuwait",
+            "nl": "Koeweit"
+        },
+        "id": "KW"
+    },
+    {
+        "order": 2,
+        "category": 5,
+        "icon": "🇮🇷",
+        "name": "Iran",
+        "native": "ایران",
+        "translations": {
+            "en": "Iran, Islamic Republic of",
+            "nl": "Iran"
+        },
+        "id": "IR"
+    },
+    {
+        "order": 2,
+        "category": 4,
+        "icon": "🇬🇵",
+        "name": "Guadeloupe",
+        "native": "Guadeloupe",
+        "translations": {
+            "en": "Guadeloupe",
+            "nl": "Guadeloupe"
+        },
+        "id": "GP"
+    },
+    {
+        "order": 2,
+        "category": 4,
+        "icon": "🇱🇦",
+        "name": "Laos",
+        "native": "ສປປລາວ",
+        "translations": {
+            "en": "Lao People's Democratic Republic",
+            "nl": "Laos"
+        },
+        "id": "LA"
+    },
+    {
+        "order": 2,
+        "category": 3,
+        "icon": "🇯🇵",
+        "name": "Japan",
+        "native": "日本",
+        "translations": {
+            "en": "Japan",
+            "nl": "Japan"
+        },
+        "id": "JP"
+    },
+    {
+        "order": 2,
+        "category": 4,
+        "icon": "🇯🇴",
+        "name": "Jordan",
+        "native": "الأردن",
+        "translations": {
+            "en": "Jordan",
+            "nl": "Jordanië"
+        },
+        "id": "JO"
+    },
+    {
+        "order": 2,
+        "category": 4,
+        "icon": "🇰🇪",
+        "name": "Kenya",
+        "native": "Kenya",
+        "translations": {
+            "en": "Kenya",
+            "nl": "Kenia"
+        },
+        "id": "KE"
+    },
+    {
+        "order": 2,
+        "category": 5,
+        "icon": "🇬🇭",
+        "name": "Ghana",
+        "native": "Ghana",
+        "translations": {
+            "en": "Ghana",
+            "nl": "Ghana"
+        },
+        "id": "GH"
+    },
+    {
+        "order": 2,
+        "category": 4,
+        "icon": "🇬🇱",
+        "name": "Greenland",
+        "native": "Kalaallit Nunaat",
+        "translations": {
+            "en": "Greenland",
+            "nl": "Groenland"
+        },
+        "id": "GL"
+    },
+    {
+        "order": 2,
+        "category": 4,
+        "icon": "🇮🇸",
+        "name": "Iceland",
+        "native": "Ísland",
+        "translations": {
+            "en": "Iceland",
+            "nl": "IJsland"
+        },
+        "id": "IS"
+    },
+    {
+        "order": 2,
+        "category": 3,
+        "icon": "🇮🇳",
+        "name": "India",
+        "native": "भारत",
+        "translations": {
+            "en": "India",
+            "nl": "India"
+        },
+        "id": "IN"
+    },
+    {
+        "order": 2,
+        "category": 4,
+        "icon": "🇱🇸",
+        "name": "Lesotho",
+        "native": "Lesotho",
+        "translations": {
+            "en": "Lesotho",
+            "nl": "Lesotho"
+        },
+        "id": "LS"
+    },
+    {
+        "order": 2,
+        "category": 4,
+        "icon": "🇬🇮",
+        "name": "Gibraltar",
+        "native": "Gibraltar",
+        "translations": {
+            "en": "Gibraltar",
+            "nl": "Gibraltar"
+        },
+        "id": "GI"
+    },
+    {
+        "order": 2,
+        "category": 4,
+        "icon": "🇭🇲",
+        "name": "Heard Island and McDonald Islands",
+        "native": "Heard Island and McDonald Islands",
+        "translations": {
+            "en": "Heard Island and McDonald Islands",
+            "nl": "Heard en McDonaldeilanden"
+        },
+        "id": "HM"
+    },
+    {
+        "order": 2,
+        "category": 4,
+        "icon": "🇬🇩",
+        "name": "Grenada",
+        "native": "Grenada",
+        "translations": {
+            "en": "Grenada",
+            "nl": "Grenada"
+        },
+        "id": "GD"
+    },
+    {
+        "order": 2,
+        "category": 5,
+        "icon": "🇮🇶",
+        "name": "Iraq",
+        "native": "العراق",
+        "translations": {
+            "en": "Iraq",
+            "nl": "Irak"
+        },
+        "id": "IQ"
+    },
+    {
+        "order": 2,
+        "category": 5,
+        "icon": "🇯🇲",
+        "name": "Jamaica",
+        "native": "Jamaica",
+        "translations": {
+            "en": "Jamaica",
+            "nl": "Jamaica"
+        },
+        "id": "JM"
+    },
+    {
+        "order": 2,
+        "category": 4,
+        "icon": "🇬🇳",
+        "name": "Guinea",
+        "native": "Guinée",
+        "translations": {
+            "en": "Guinea",
+            "nl": "Guinea"
+        },
+        "id": "GN"
+    },
+    {
+        "order": 2,
+        "category": 4,
+        "icon": "🇰🇿",
+        "name": "Kazakhstan",
+        "native": "Қазақстан",
+        "translations": {
+            "en": "Kazakhstan",
+            "nl": "Kazachstan"
+        },
+        "id": "KZ"
+    },
+    {
+        "order": 2,
+        "category": 4,
+        "icon": "🇰🇬",
+        "name": "Kyrgyzstan",
+        "native": "Кыргызстан",
+        "translations": {
+            "en": "Kyrgyzstan",
+            "nl": "Kirgizstan"
+        },
+        "id": "KG"
+    },
+    {
+        "order": 2,
+        "category": 4,
+        "icon": "🇮🇩",
+        "name": "Indonesia",
+        "native": "Indonesia",
+        "translations": {
+            "en": "Indonesia",
+            "nl": "Indonesia"
+        },
+        "id": "ID"
+    },
+    {
+        "order": 2,
+        "category": 3,
+        "icon": "🇮🇱",
+        "name": "Israel",
+        "native": "יִשְׂרָאֵל",
+        "translations": {
+            "en": "Israel",
+            "nl": "Israël"
+        },
+        "id": "IL"
+    },
+    {
+        "order": 2,
+        "category": 4,
+        "icon": "🇹🇫",
+        "name": "French Southern Territories",
+        "native": "Territoire des Terres australes et antarctiques fr",
+        "translations": {
+            "en": "French Southern Territories",
+            "nl": "Franse Zuidelijke Gebieden"
+        },
+        "id": "TF"
+    },
+    {
+        "order": 2,
+        "category": 4,
+        "icon": "🇱🇷",
+        "name": "Liberia",
+        "native": "Liberia",
+        "translations": {
+            "en": "Liberia",
+            "nl": "Liberia"
+        },
+        "id": "LR"
+    },
+    {
+        "order": 2,
+        "category": 4,
+        "icon": "🇭🇹",
+        "name": "Haiti",
+        "native": "Haïti",
+        "translations": {
+            "en": "Haiti",
+            "nl": "Haïti"
+        },
+        "id": "HT"
+    },
+    {
+        "order": 2,
+        "category": 3,
+        "icon": "🇬🇷",
+        "name": "Greece",
+        "native": "Ελλάδα",
+        "translations": {
+            "en": "Greece",
+            "nl": "Griekenland"
+        },
+        "id": "GR"
+    },
+    {
+        "order": 2,
+        "category": 4,
+        "icon": "🇬🇦",
+        "name": "Gabon",
+        "native": "Gabon",
+        "translations": {
+            "en": "Gabon",
+            "nl": "Gabon"
+        },
+        "id": "GA"
+    },
+    {
+        "order": 2,
+        "category": 4,
+        "icon": "🇭🇳",
+        "name": "Honduras",
+        "native": "Honduras",
+        "translations": {
+            "en": "Honduras",
+            "nl": "Honduras"
+        },
+        "id": "HN"
+    },
+    {
+        "order": 2,
+        "category": 4,
+        "icon": "🇬🇼",
+        "name": "Guinea-Bissau",
+        "native": "Guiné-Bissau",
+        "translations": {
+            "en": "Guinea-Bissau",
+            "nl": "Guinee-Bissau"
+        },
+        "id": "GW"
+    },
+    {
+        "order": 2,
+        "category": 3,
+        "icon": "🇬🇾",
+        "name": "Guyana",
+        "native": "Guyana",
+        "translations": {
+            "en": "Guyana",
+            "nl": "Guyana"
+        },
+        "id": "GY"
+    },
+    {
+        "order": 2,
+        "category": 3,
+        "icon": "🇬🇪",
+        "name": "Georgia",
+        "native": "საქართველო",
+        "translations": {
+            "en": "Georgia",
+            "nl": "Georgië"
+        },
+        "id": "GE"
+    },
+    {
+        "order": 2,
+        "category": 4,
+        "icon": "🇬🇺",
+        "name": "Guam",
+        "native": "Guam",
+        "translations": {
+            "en": "Guam",
+            "nl": "Guam"
+        },
+        "id": "GU"
+    },
+    {
+        "order": 2,
+        "category": 3,
+        "icon": "🇬🇹",
+        "name": "Guatemala",
+        "native": "Guatemala",
+        "translations": {
+            "en": "Guatemala",
+            "nl": "Guatemala"
+        },
+        "id": "GT"
+    },
+    {
+        "order": 2,
+        "category": 3,
+        "icon": "🇭🇰",
+        "name": "Hong Kong",
+        "native": "香港",
+        "translations": {
+            "en": "Hong Kong",
+            "nl": "Hong Kong"
+        },
+        "id": "HK"
+    },
+    {
+        "order": 2,
+        "category": 3,
+        "icon": "🇭🇺",
+        "name": "Hungary",
+        "native": "Magyarország",
+        "translations": {
+            "en": "Hungary",
+            "nl": "Hongarije"
+        },
+        "id": "HU"
+    },
+    {
+        "order": 2,
+        "category": 2,
+        "icon": "🇮🇹",
+        "name": "Italy",
+        "native": "Italia",
+        "translations": {
+            "en": "Italy",
+            "nl": "Italië"
+        },
+        "id": "IT"
+    },
+    {
+        "order": 2,
+        "category": 3,
+        "icon": "🇱🇻",
+        "name": "Latvia",
+        "native": "Latvija",
+        "translations": {
+            "en": "Latvia",
+            "nl": "Letland"
+        },
+        "id": "LV"
+    },
+    {
+        "order": 2,
+        "category": 4,
+        "icon": "🇱🇧",
+        "name": "Lebanon",
+        "native": "لبنان",
+        "translations": {
+            "en": "Lebanon",
+            "nl": "Libanon"
+        },
+        "id": "LB"
+    },
+    {
+        "order": 2,
+        "category": 4,
+        "icon": "🇰🇮",
+        "name": "Kiribati",
+        "native": "Kiribati",
+        "translations": {
+            "en": "Kiribati",
+            "nl": "Kiribati"
+        },
+        "id": "KI"
+    },
+    {
+        "order": 2,
+        "category": 4,
+        "icon": "🇱🇾",
+        "name": "Libya",
+        "native": "‏ليبيا",
+        "translations": {
+            "en": "Libya",
+            "nl": "Libië"
+        },
+        "id": "LY"
+    },
+    {
+        "order": 2,
+        "category": 2,
+        "icon": "🇮🇪",
+        "name": "Ireland",
+        "native": "Éire",
+        "translations": {
+            "en": "Ireland",
+            "nl": "Ierland"
+        },
+        "id": "IE"
+    },
+    {
+        "order": 2,
+        "category": 4,
+        "icon": "🇲🇾",
+        "name": "Malaysia",
+        "native": "Malaysia",
+        "translations": {
+            "en": "Malaysia",
+            "nl": "Maleisië"
+        },
+        "id": "MY"
+    },
+    {
+        "order": 2,
+        "category": 4,
+        "icon": "🇲🇼",
+        "name": "Malawi",
+        "native": "Malawi",
+        "translations": {
+            "en": "Malawi",
+            "nl": "Malawi"
+        },
+        "id": "MW"
+    },
+    {
+        "order": 2,
+        "category": 5,
+        "icon": "🇲🇦",
+        "name": "Morocco",
+        "native": "المغرب",
+        "translations": {
+            "en": "Morocco",
+            "nl": "Marokko"
+        },
+        "id": "MA"
+    },
+    {
+        "order": 2,
+        "category": 3,
+        "icon": "🇱🇹",
+        "name": "Lithuania",
+        "native": "Lietuva",
+        "translations": {
+            "en": "Lithuania",
+            "nl": "Litouwen"
+        },
+        "id": "LT"
+    },
+    {
+        "order": 2,
+        "category": 4,
+        "icon": "🇲🇱",
+        "name": "Mali",
+        "native": "Mali",
+        "translations": {
+            "en": "Mali",
+            "nl": "Mali"
+        },
+        "id": "ML"
+    },
+    {
+        "order": 2,
+        "category": 4,
+        "icon": "🇲🇻",
+        "name": "Maldives",
+        "native": "Maldives",
+        "translations": {
+            "en": "Maldives",
+            "nl": "Maldiven"
+        },
+        "id": "MV"
+    },
+    {
+        "order": 2,
+        "category": 5,
+        "icon": "🇲🇲",
+        "name": "Myanmar [Burma]",
+        "native": "မြန်မာ",
+        "translations": {
+            "en": "Myanmar",
+            "nl": "Myanmar"
+        },
+        "id": "MM"
+    },
+    {
+        "order": 2,
+        "category": 4,
+        "icon": "🇲🇶",
+        "name": "Martinique",
+        "native": "Martinique",
+        "translations": {
+            "en": "Martinique",
+            "nl": "Martinique"
+        },
+        "id": "MQ"
+    },
+    {
+        "order": 2,
+        "category": 3,
+        "icon": "🇱🇺",
+        "name": "Luxembourg",
+        "native": "Luxembourg",
+        "translations": {
+            "en": "Luxembourg",
+            "nl": "Luxemburg"
+        },
+        "id": "LU"
+    },
+    {
+        "order": 2,
+        "category": 3,
+        "icon": "🇱🇮",
+        "name": "Liechtenstein",
+        "native": "Liechtenstein",
+        "translations": {
+            "en": "Liechtenstein",
+            "nl": "Liechtenstein"
+        },
+        "id": "LI"
+    },
+    {
+        "order": 2,
+        "category": 4,
+        "icon": "🇲🇹",
+        "name": "Malta",
+        "native": "Malta",
+        "translations": {
+            "en": "Malta",
+            "nl": "Malta"
+        },
+        "id": "MT"
+    },
+    {
+        "order": 2,
+        "category": 4,
+        "icon": "🇲🇴",
+        "name": "Macao",
+        "native": "澳門",
+        "translations": {
+            "en": "Macao",
+            "nl": "Macao"
+        },
+        "id": "MO"
+    },
+    {
+        "order": 2,
+        "category": 5,
+        "icon": "🇲🇺",
+        "name": "Mauritius",
+        "native": "Maurice",
+        "translations": {
+            "en": "Mauritius",
+            "nl": "Mauritius"
+        },
+        "id": "MU"
+    },
+    {
+        "order": 2,
+        "category": 4,
+        "icon": "🇳🇷",
+        "name": "Nauru",
+        "native": "Nauru",
+        "translations": {
+            "en": "Nauru",
+            "nl": "Nauru"
+        },
+        "id": "NR"
+    },
+    {
+        "order": 2,
+        "category": 4,
+        "icon": "🇲🇭",
+        "name": "Marshall Islands",
+        "native": "M̧ajeļ",
+        "translations": {
+            "en": "Marshall Islands",
+            "nl": "Marshalleilanden"
+        },
+        "id": "MH"
+    },
+    {
+        "order": 2,
+        "category": 4,
+        "icon": "🇲🇷",
+        "name": "Mauritania",
+        "native": "موريتانيا",
+        "translations": {
+            "en": "Mauritania",
+            "nl": "Mauritanië"
+        },
+        "id": "MR"
+    },
+    {
+        "order": 2,
+        "category": 3,
+        "icon": "🇲🇽",
+        "name": "Mexico",
+        "native": "México",
+        "translations": {
+            "en": "Mexico",
+            "nl": "Mexico"
+        },
+        "id": "MX"
+    },
+    {
+        "order": 2,
+        "category": 4,
+        "icon": "🇲🇩",
+        "name": "Moldova",
+        "native": "Moldova",
+        "translations": {
+            "en": "Moldova, Republic of",
+            "nl": "Moldavië"
+        },
+        "id": "MD"
+    },
+    {
+        "order": 2,
+        "category": 3,
+        "icon": "🇲🇳",
+        "name": "Mongolia",
+        "native": "Монгол улс",
+        "translations": {
+            "en": "Mongolia",
+            "nl": "Mongolië"
+        },
+        "id": "MN"
+    },
+    {
+        "order": 2,
+        "category": 4,
+        "icon": "🇲🇸",
+        "name": "Montserrat",
+        "native": "Montserrat",
+        "translations": {
+            "en": "Montserrat",
+            "nl": "Montserrat"
+        },
+        "id": "MS"
+    },
+    {
+        "order": 2,
+        "category": 4,
+        "icon": "🇫🇲",
+        "name": "Micronesia",
+        "native": "Micronesia",
+        "translations": {
+            "en": "Micronesia, Federated States of",
+            "nl": "Micronesië, Federale Staten"
+        },
+        "id": "FM"
+    },
+    {
+        "order": 2,
+        "category": 3,
+        "icon": "🇲🇨",
+        "name": "Monaco",
+        "native": "Monaco",
+        "translations": {
+            "en": "Monaco",
+            "nl": "Monaco"
+        },
+        "id": "MC"
+    },
+    {
+        "order": 2,
+        "category": 4,
+        "icon": "🇲🇿",
+        "name": "Mozambique",
+        "native": "Moçambique",
+        "translations": {
+            "en": "Mozambique",
+            "nl": "Mozambique"
+        },
+        "id": "MZ"
+    },
+    {
+        "order": 2,
+        "category": 4,
+        "icon": "🇾🇹",
+        "name": "Mayotte",
+        "native": "Mayotte",
+        "translations": {
+            "en": "Mayotte",
+            "nl": "Mayotte"
+        },
+        "id": "YT"
+    },
+    {
+        "order": 2,
+        "category": 4,
+        "icon": "🇳🇦",
+        "name": "Namibia",
+        "native": "Namibia",
+        "translations": {
+            "en": "Namibia",
+            "nl": "Namibië"
+        },
+        "id": "NA"
+    },
+    {
+        "order": 2,
+        "category": 4,
+        "icon": "🇲🇬",
+        "name": "Madagascar",
+        "native": "Madagasikara",
+        "translations": {
+            "en": "Madagascar",
+            "nl": "Madagaskar"
+        },
+        "id": "MG"
+    },
+    {
+        "order": 2,
+        "category": 4,
+        "icon": "🇳🇵",
+        "name": "Nepal",
+        "native": "नपल",
+        "translations": {
+            "en": "Nepal",
+            "nl": "Nepal"
+        },
+        "id": "NP"
+    },
+    {
+        "order": 2,
+        "category": 3,
+        "icon": "🇳🇿",
+        "name": "New Zealand",
+        "native": "New Zealand",
+        "translations": {
+            "en": "New Zealand",
+            "nl": "Nieuw-Zeeland"
+        },
+        "id": "NZ"
+    },
+    {
+        "order": 2,
+        "category": 4,
+        "icon": "🇴🇲",
+        "name": "Oman",
+        "native": "عمان",
+        "translations": {
+            "en": "Oman",
+            "nl": "Oman"
+        },
+        "id": "OM"
+    },
+    {
+        "order": 2,
+        "category": 4,
+        "icon": "🇳🇺",
+        "name": "Niue",
+        "native": "Niuē",
+        "translations": {
+            "en": "Niue",
+            "nl": "Niue"
+        },
+        "id": "NU"
+    },
+    {
+        "order": 2,
+        "category": 4,
+        "icon": "🇳🇫",
+        "name": "Norfolk Island",
+        "native": "Norfolk Island",
+        "translations": {
+            "en": "Norfolk Island",
+            "nl": "Norfolk"
+        },
+        "id": "NF"
+    },
+    {
+        "order": 2,
+        "category": 5,
+        "icon": "🇰🇵",
+        "name": "North Korea",
+        "native": "북한",
+        "translations": {
+            "en": "North Korea",
+            "nl": "Noord-Korea"
+        },
+        "id": "KP"
+    },
+    {
+        "order": 2,
+        "category": 2,
+        "icon": "🇳🇴",
+        "name": "Norway",
+        "native": "Norge",
+        "translations": {
+            "en": "Norway",
+            "nl": "Noorwegen"
+        },
+        "id": "NO"
+    },
+    {
+        "order": 2,
+        "category": 5,
+        "icon": "🇵🇦",
+        "name": "Panama",
+        "native": "Panamá",
+        "translations": {
+            "en": "Panama",
+            "nl": "Panama"
+        },
+        "id": "PA"
+    },
+    {
+        "order": 2,
+        "category": 4,
+        "icon": "🇵🇳",
+        "name": "Pitcairn Islands",
+        "native": "Pitcairn Islands",
+        "translations": {
+            "en": "Pitcairn",
+            "nl": "Pitcairn"
+        },
+        "id": "PN"
+    },
+    {
+        "order": 2,
+        "category": 4,
+        "icon": "🇲🇵",
+        "name": "Northern Mariana Islands",
+        "native": "Northern Mariana Islands",
+        "translations": {
+            "en": "Northern Mariana Islands",
+            "nl": "Noordelijke Marianen"
+        },
+        "id": "MP"
+    },
+    {
+        "order": 2,
+        "category": 5,
+        "icon": "🇵🇰",
+        "name": "Pakistan",
+        "native": "Pakistan",
+        "translations": {
+            "en": "Pakistan",
+            "nl": "Pakistan"
+        },
+        "id": "PK"
+    },
+    {
+        "order": 2,
+        "category": 4,
+        "icon": "🇵🇭",
+        "name": "Philippines",
+        "native": "Pilipinas",
+        "translations": {
+            "en": "Philippines",
+            "nl": "Filipijnen"
+        },
+        "id": "PH"
+    },
+    {
+        "order": 2,
+        "category": 4,
+        "icon": "🇳🇬",
+        "name": "Nigeria",
+        "native": "Nigeria",
+        "translations": {
+            "en": "Nigeria",
+            "nl": "Nigeria"
+        },
+        "id": "NG"
+    },
+    {
+        "order": 2,
+        "category": 3,
+        "icon": "🇵🇾",
+        "name": "Paraguay",
+        "native": "Paraguay",
+        "translations": {
+            "en": "Paraguay",
+            "nl": "Paraguay"
+        },
+        "id": "PY"
+    },
+    {
+        "order": 2,
+        "category": 4,
+        "icon": "🇵🇼",
+        "name": "Palau",
+        "native": "Palau",
+        "translations": {
+            "en": "Palau",
+            "nl": "Palau"
+        },
+        "id": "PW"
+    },
+    {
+        "order": 2,
+        "category": 4,
+        "icon": "🇵🇬",
+        "name": "Papua New Guinea",
+        "native": "Papua Niugini",
+        "translations": {
+            "en": "Papua New Guinea",
+            "nl": "Papoea-Nieuw-Guinea"
+        },
+        "id": "PG"
+    },
+    {
+        "order": 2,
+        "category": 3,
+        "icon": "🇵🇪",
+        "name": "Peru",
+        "native": "Perú",
+        "translations": {
+            "en": "Peru",
+            "nl": "Peru"
+        },
+        "id": "PE"
+    },
+    {
+        "order": 2,
+        "category": 3,
+        "icon": "🇵🇱",
+        "name": "Poland",
+        "native": "Polska",
+        "translations": {
+            "en": "Poland",
+            "nl": "Polen"
+        },
+        "id": "PL"
+    },
+    {
+        "order": 2,
+        "category": 5,
+        "icon": "🇳🇮",
+        "name": "Nicaragua",
+        "native": "Nicaragua",
+        "translations": {
+            "en": "Nicaragua",
+            "nl": "Nicaragua"
+        },
+        "id": "NI"
+    },
+    {
+        "order": 2,
+        "category": 4,
+        "icon": "🇳🇨",
+        "name": "New Caledonia",
+        "native": "Nouvelle-Calédonie",
+        "translations": {
+            "en": "New Caledonia",
+            "nl": "Nieuw-Caledonië"
+        },
+        "id": "NC"
+    },
+    {
+        "order": 2,
+        "category": 4,
+        "icon": "🇳🇪",
+        "name": "Niger",
+        "native": "Niger",
+        "translations": {
+            "en": "Niger",
+            "nl": "Niger"
+        },
+        "id": "NE"
+    },
+    {
+        "order": 2,
+        "category": 4,
+        "icon": "🇵🇷",
+        "name": "Puerto Rico",
+        "native": "Puerto Rico",
+        "translations": {
+            "en": "Puerto Rico",
+            "nl": "Puerto Rico"
+        },
+        "id": "PR"
+    },
+    {
+        "order": 2,
+        "category": 2,
+        "icon": "🇿🇦",
+        "name": "South Africa",
+        "native": "South Africa",
+        "translations": {
+            "en": "South Africa",
+            "nl": "Zuid-Afrika"
+        },
+        "id": "ZA"
+    },
+    {
+        "order": 2,
+        "category": 5,
+        "icon": "🇸🇳",
+        "name": "Senegal",
+        "native": "Sénégal",
+        "translations": {
+            "en": "Senegal",
+            "nl": "Senegal"
+        },
+        "id": "SN"
+    },
+    {
+        "order": 2,
+        "category": 4,
+        "icon": "🇸🇨",
+        "name": "Seychelles",
+        "native": "Seychelles",
+        "translations": {
+            "en": "Seychelles",
+            "nl": "Seychellen"
+        },
+        "id": "SC"
+    },
+    {
+        "order": 2,
+        "category": 4,
+        "icon": "🇬🇸",
+        "name": "South Georgia and the South Sandwich Islands",
+        "native": "South Georgia",
+        "translations": {
+            "en": "South Georgia and the South Sandwich Islands",
+            "nl": "Zuid-Georgia en de Zuidelijke Sandwicheilanden"
+        },
+        "id": "GS"
+    },
+    {
+        "order": 2,
+        "category": 4,
+        "icon": "🇸🇴",
+        "name": "Somalia",
+        "native": "Soomaaliya",
+        "translations": {
+            "en": "Somalia",
+            "nl": "Somalië"
+        },
+        "id": "SO"
+    },
+    {
+        "order": 2,
+        "category": 4,
+        "icon": "🇶🇦",
+        "name": "Qatar",
+        "native": "قطر",
+        "translations": {
+            "en": "Qatar",
+            "nl": "Qatar"
+        },
+        "id": "QA"
+    },
+    {
+        "order": 2,
+        "category": 4,
+        "icon": "🇸🇱",
+        "name": "Sierra Leone",
+        "native": "Sierra Leone",
+        "translations": {
+            "en": "Sierra Leone",
+            "nl": "Sierra Leone"
+        },
+        "id": "SL"
+    },
+    {
+        "order": 2,
+        "category": 3,
+        "icon": "🇸🇬",
+        "name": "Singapore",
+        "native": "Singapore",
+        "translations": {
+            "en": "Singapore",
+            "nl": "Singapore"
+        },
+        "id": "SG"
+    },
+    {
+        "order": 2,
+        "category": 2,
+        "icon": "🇸🇪",
+        "name": "Sweden",
+        "native": "Sverige",
+        "translations": {
+            "en": "Sweden",
+            "nl": "Zweden"
+        },
+        "id": "SE"
+    },
+    {
+        "order": 2,
+        "category": 5,
+        "icon": "🇸🇾",
+        "name": "Syria",
+        "native": "سوريا",
+        "translations": {
+            "en": "Syrian Arab Republic",
+            "nl": "Syrië"
+        },
+        "id": "SY"
+    },
+    {
+        "order": 2,
+        "category": 4,
+        "icon": "🇹🇯",
+        "name": "Tajikistan",
+        "native": "Тоҷикистон",
+        "translations": {
+            "en": "Tajikistan",
+            "nl": "Tadzjikistan"
+        },
+        "id": "TJ"
+    },
+    {
+        "order": 2,
+        "category": 3,
+        "icon": "🇸🇰",
+        "name": "Slovakia",
+        "native": "Slovensko",
+        "translations": {
+            "en": "Slovakia",
+            "nl": "Slowakije"
+        },
+        "id": "SK"
+    },
+    {
+        "order": 2,
+        "category": 4,
+        "icon": "🇹🇼",
+        "name": "Taiwan",
+        "native": "臺灣",
+        "translations": {
+            "en": "Taiwan, Province of China",
+            "nl": "Taiwan"
+        },
+        "id": "TW"
+    },
+    {
+        "order": 2,
+        "category": 3,
+        "icon": "🇷🇴",
+        "name": "Romania",
+        "native": "România",
+        "translations": {
+            "en": "Romania",
+            "nl": "Roemenië"
+        },
+        "id": "RO"
+    },
+    {
+        "order": 2,
+        "category": 4,
+        "icon": "🇱🇨",
+        "name": "Saint Lucia",
+        "native": "Saint Lucia",
+        "translations": {
+            "en": "Saint Lucia",
+            "nl": "Saint Lucia"
+        },
+        "id": "LC"
+    },
+    {
+        "order": 2,
+        "category": 4,
+        "icon": "🇹🇭",
+        "name": "Thailand",
+        "native": "ประเทศไทย",
+        "translations": {
+            "en": "Thailand",
+            "nl": "Thailand"
+        },
+        "id": "TH"
+    },
+    {
+        "order": 2,
+        "category": 4,
+        "icon": "🇷🇺",
+        "name": "Russia",
+        "native": "Россия",
+        "translations": {
+            "en": "Russian Federation",
+            "nl": "Rusland"
+        },
+        "id": "RU"
+    },
+    {
+        "order": 2,
+        "category": 4,
+        "icon": "🇷🇼",
+        "name": "Rwanda",
+        "native": "Rwanda",
+        "translations": {
+            "en": "Rwanda",
+            "nl": "Rwanda"
+        },
+        "id": "RW"
+    },
+    {
+        "order": 2,
+        "category": 4,
+        "icon": "🇸🇹",
+        "name": "São Tomé and Príncipe",
+        "native": "São Tomé e Príncipe",
+        "translations": {
+            "en": "Sao Tome and Principe",
+            "nl": "São Tomé en Principe"
+        },
+        "id": "ST"
+    },
+    {
+        "order": 2,
+        "category": 4,
+        "icon": "🇸🇭",
+        "name": "Saint Helena",
+        "native": "Saint Helena",
+        "translations": {
+            "en": "Saint Helena",
+            "nl": "Sint-Helena"
+        },
+        "id": "SH"
+    },
+    {
+        "order": 2,
+        "category": 3,
+        "icon": "🇸🇮",
+        "name": "Slovenia",
+        "native": "Slovenija",
+        "translations": {
+            "en": "Slovenia",
+            "nl": "Slovenië"
+        },
+        "id": "SI"
+    },
+    {
+        "order": 2,
+        "category": 4,
+        "icon": "🇼🇸",
+        "name": "Samoa",
+        "native": "Samoa",
+        "translations": {
+            "en": "Samoa",
+            "nl": "Samoa"
+        },
+        "id": "WS"
+    },
+    {
+        "order": 2,
+        "category": 4,
+        "icon": "🇱🇰",
+        "name": "Sri Lanka",
+        "native": "śrī laṃkāva",
+        "translations": {
+            "en": "Sri Lanka",
+            "nl": "Sri Lanka"
+        },
+        "id": "LK"
+    },
+    {
+        "order": 2,
+        "category": 4,
+        "icon": "🇸🇯",
+        "name": "Svalbard and Jan Mayen",
+        "native": "Svalbard og Jan Mayen",
+        "translations": {
+            "en": "Svalbard and Jan Mayen",
+            "nl": "Spitsbergen en Jan Mayen"
+        },
+        "id": "SJ"
+    },
+    {
+        "order": 2,
+        "category": 4,
+        "icon": "🇸🇿",
+        "name": "Swaziland",
+        "native": "Swaziland",
+        "translations": {
+            "en": "Eswatini",
+            "nl": "Ngwane, Koninkrijk Eswatini"
+        },
+        "id": "SZ"
+    },
+    {
+        "order": 2,
+        "category": 2,
+        "icon": "🇨🇭",
+        "name": "Switzerland",
+        "native": "Schweiz",
+        "translations": {
+            "en": "Switzerland",
+            "nl": "Zwitserland"
+        },
+        "id": "CH"
+    },
+    {
+        "order": 2,
+        "category": 4,
+        "icon": "🇹🇿",
+        "name": "Tanzania",
+        "native": "Tanzania",
+        "translations": {
+            "en": "Tanzania, United Republic of",
+            "nl": "Tanzania, Verenigde Republiek"
+        },
+        "id": "TZ"
+    },
+    {
+        "order": 2,
+        "category": 5,
+        "icon": "🇧🇸",
+        "name": "Bahamas",
+        "native": "Bahamas",
+        "translations": {
+            "en": "Bahamas",
+            "nl": "Bahama's"
+        },
+        "id": "BS"
+    },
+    {
+        "order": 2,
+        "category": 2,
+        "icon": "🇵🇹",
+        "name": "Portugal",
+        "native": "Portugal",
+        "translations": {
+            "en": "Portugal",
+            "nl": "Portugal"
+        },
+        "id": "PT"
+    },
+    {
+        "order": 2,
+        "category": 4,
+        "icon": "🇬🇲",
+        "name": "Gambia",
+        "native": "Gambia",
+        "translations": {
+            "en": "Gambia",
+            "nl": "Gambia"
+        },
+        "id": "GM"
+    },
+    {
+        "order": 2,
+        "category": 4,
+        "icon": "🇷🇪",
+        "name": "Réunion",
+        "native": "La Réunion",
+        "translations": {
+            "en": "Reunion",
+            "nl": "Réunion"
+        },
+        "id": "RE"
+    },
+    {
+        "order": 2,
+        "category": 4,
+        "icon": "🇵🇲",
+        "name": "Saint Pierre and Miquelon",
+        "native": "Saint-Pierre-et-Miquelon",
+        "translations": {
+            "en": "Saint Pierre and Miquelon",
+            "nl": "Saint-Pierre en Miquelon"
+        },
+        "id": "PM"
+    },
+    {
+        "order": 2,
+        "category": 4,
+        "icon": "🇸🇧",
+        "name": "Solomon Islands",
+        "native": "Solomon Islands",
+        "translations": {
+            "en": "Solomon Islands",
+            "nl": "Salomonseilanden"
+        },
+        "id": "SB"
+    },
+    {
+        "order": 2,
+        "category": 2,
+        "icon": "🇪🇸",
+        "name": "Spain",
+        "native": "España",
+        "translations": {
+            "en": "Spain",
+            "nl": "Spanje"
+        },
+        "id": "ES"
+    },
+    {
+        "order": 2,
+        "category": 3,
+        "icon": "🇰🇷",
+        "name": "South Korea",
+        "native": "대한민국",
+        "translations": {
+            "en": "South Korea",
+            "nl": "Zuid-Korea"
+        },
+        "id": "KR"
+    },
+    {
+        "order": 2,
+        "category": 3,
+        "icon": "🇸🇲",
+        "name": "San Marino",
+        "native": "San Marino",
+        "translations": {
+            "en": "San Marino",
+            "nl": "San Marino"
+        },
+        "id": "SM"
+    },
+    {
+        "order": 2,
+        "category": 4,
+        "icon": "🇸🇩",
+        "name": "Sudan",
+        "native": "السودان",
+        "translations": {
+            "en": "Sudan",
+            "nl": "Soedan"
+        },
+        "id": "SD"
+    },
+    {
+        "order": 2,
+        "category": 4,
+        "icon": "🇸🇦",
+        "name": "Saudi Arabia",
+        "native": "العربية السعودية",
+        "translations": {
+            "en": "Saudi Arabia",
+            "nl": "Saudi-Arabië"
+        },
+        "id": "SA"
+    },
+    {
+        "order": 2,
+        "category": 3,
+        "icon": "🇸🇷",
+        "name": "Suriname",
+        "native": "Suriname",
+        "translations": {
+            "en": "Suriname",
+            "nl": "Suriname"
+        },
+        "id": "SR"
+    },
+    {
+        "order": 2,
+        "category": 4,
+        "icon": "🇰🇳",
+        "name": "Saint Kitts and Nevis",
+        "native": "Saint Kitts and Nevis",
+        "translations": {
+            "en": "Saint Kitts and Nevis",
+            "nl": "Saint Kitts en Nevis"
+        },
+        "id": "KN"
+    },
+    {
+        "order": 2,
+        "category": 3,
+        "icon": "🇻🇨",
+        "name": "Saint Vincent and the Grenadines",
+        "native": "Saint Vincent and the Grenadines",
+        "translations": {
+            "en": "Saint Vincent and the Grenadines",
+            "nl": "Saint Vincent en de Grenadines"
+        },
+        "id": "VC"
+    },
+    {
+        "order": 2,
+        "category": 4,
+        "icon": "🇹🇷",
+        "name": "Turkey",
+        "native": "Türkiye",
+        "translations": {
+            "en": "Turkey",
+            "nl": "Turkije"
+        },
+        "id": "TR"
+    },
+    {
+        "order": 2,
+        "category": 4,
+        "icon": "🇹🇳",
+        "name": "Tunisia",
+        "native": "تونس",
+        "translations": {
+            "en": "Tunisia",
+            "nl": "Tunesië"
+        },
+        "id": "TN"
+    },
+    {
+        "order": 2,
+        "category": 4,
+        "icon": "🇹🇲",
+        "name": "Turkmenistan",
+        "native": "Türkmenistan",
+        "translations": {
+            "en": "Turkmenistan",
+            "nl": "Turkmenistan"
+        },
+        "id": "TM"
+    },
+    {
+        "order": 2,
+        "category": 4,
+        "icon": "🇹🇬",
+        "name": "Togo",
+        "native": "Togo",
+        "translations": {
+            "en": "Togo",
+            "nl": "Togo"
+        },
+        "id": "TG"
+    },
+    {
+        "order": 2,
+        "category": 5,
+        "icon": "🇻🇺",
+        "name": "Vanuatu",
+        "native": "Vanuatu",
+        "translations": {
+            "en": "Vanuatu",
+            "nl": "Vanuatu"
+        },
+        "id": "VU"
+    },
+    {
+        "order": 2,
+        "category": 4,
+        "icon": "🇺🇲",
+        "name": "U.S. Minor Outlying Islands",
+        "native": "United States Minor Outlying Islands",
+        "translations": {
+            "en": "United States Minor Outlying Islands",
+            "nl": "Ver afgelegen eilandjes van de Verenigde Staten"
+        },
+        "id": "UM"
+    },
+    {
+        "order": 2,
+        "category": 4,
+        "icon": "🇪🇭",
+        "name": "Western Sahara",
+        "native": "الصحراء الغربية",
+        "translations": {
+            "en": "Western Sahara",
+            "nl": "Westelijke Sahara"
+        },
+        "id": "EH"
+    },
+    {
+        "order": 2,
+        "category": 3,
+        "icon": "🇮🇲",
+        "name": "Isle of Man",
+        "native": "Isle of Man",
+        "translations": {
+            "en": "Isle of Man",
+            "nl": "Man Eiland"
+        },
+        "id": "IM"
+    },
+    {
+        "order": 2,
+        "category": 4,
+        "icon": "🇻🇪",
+        "name": "Venezuela",
+        "native": "Venezuela",
+        "translations": {
+            "en": "Venezuela",
+            "nl": "Venezuela"
+        },
+        "id": "VE"
+    },
+    {
+        "order": 2,
+        "category": 5,
+        "icon": "🇾🇪",
+        "name": "Yemen",
+        "native": "اليَمَن",
+        "translations": {
+            "en": "Yemen",
+            "nl": "Jemen"
+        },
+        "id": "YE"
+    },
+    {
+        "order": 2,
+        "category": 5,
+        "icon": "🇿🇼",
+        "name": "Zimbabwe",
+        "native": "Zimbabwe",
+        "translations": {
+            "en": "Zimbabwe",
+            "nl": "Zimbabwe"
+        },
+        "id": "ZW"
+    },
+    {
+        "order": 2,
+        "category": 3,
+        "icon": "🇦🇽",
+        "name": "Åland",
+        "native": "Åland",
+        "translations": {
+            "en": "Åland Islands",
+            "nl": "Åland"
+        },
+        "id": "AX"
+    },
+    {
+        "order": 2,
+        "category": 3,
+        "icon": "🇧🇶",
+        "name": "Bonaire",
+        "native": "Bonaire",
+        "translations": {
+            "en": "Bonaire, Sint Eustatius and Saba",
+            "nl": "Bonaire, Sint Eustatius en Saba"
+        },
+        "id": "BQ"
+    },
+    {
+        "order": 2,
+        "category": 4,
+        "icon": "🇺🇿",
+        "name": "Uzbekistan",
+        "native": "O‘zbekiston",
+        "translations": {
+            "en": "Uzbekistan",
+            "nl": "Oezbekistan"
+        },
+        "id": "UZ"
+    },
+    {
+        "order": 2,
+        "category": 4,
+        "icon": "🇦🇪",
+        "name": "United Arab Emirates",
+        "native": "دولة الإمارات العربية المتحدة",
+        "translations": {
+            "en": "United Arab Emirates",
+            "nl": "Verenigde Arabische Emiraten"
+        },
+        "id": "AE"
+    },
+    {
+        "order": 2,
+        "category": 4,
+        "icon": "🇹🇨",
+        "name": "Turks and Caicos Islands",
+        "native": "Turks and Caicos Islands",
+        "translations": {
+            "en": "Turks and Caicos Islands",
+            "nl": "Turks- en Caicoseilanden"
+        },
+        "id": "TC"
+    },
+    {
+        "order": 2,
+        "category": 4,
+        "icon": "🇲🇪",
+        "name": "Montenegro",
+        "native": "Црна Гора",
+        "translations": {
+            "en": "Montenegro",
+            "nl": "Montenegro"
+        },
+        "id": "ME"
+    },
+    {
+        "order": 2,
+        "category": 4,
+        "icon": "🇻🇳",
+        "name": "Vietnam",
+        "native": "Việt Nam",
+        "translations": {
+            "en": "Vietnam",
+            "nl": "Vietnam"
+        },
+        "id": "VN"
+    },
+    {
+        "order": 2,
+        "category": 5,
+        "icon": "🇹🇹",
+        "name": "Trinidad and Tobago",
+        "native": "Trinidad and Tobago",
+        "translations": {
+            "en": "Trinidad and Tobago",
+            "nl": "Trinidad en Tobago"
+        },
+        "id": "TT"
+    },
+    {
+        "order": 2,
+        "category": 4,
+        "icon": "🇹🇻",
+        "name": "Tuvalu",
+        "native": "Tuvalu",
+        "translations": {
+            "en": "Tuvalu",
+            "nl": "Tuvalu"
+        },
+        "id": "TV"
+    },
+    {
+        "order": 2,
+        "category": 4,
+        "icon": "🇺🇾",
+        "name": "Uruguay",
+        "native": "Uruguay",
+        "translations": {
+            "en": "Uruguay",
+            "nl": "Uruguay"
+        },
+        "id": "UY"
+    },
+    {
+        "order": 2,
+        "category": 4,
+        "icon": "🇻🇦",
+        "name": "Vatican City",
+        "native": "Vaticano",
+        "translations": {
+            "en": "Holy See (Vatican City State)",
+            "nl": "Heilige Stoel"
+        },
+        "id": "VA"
+    },
+    {
+        "order": 2,
+        "category": 4,
+        "icon": "🇼🇫",
+        "name": "Wallis and Futuna",
+        "native": "Wallis et Futuna",
+        "translations": {
+            "en": "Wallis and Futuna",
+            "nl": "Wallis en Futuna"
+        },
+        "id": "WF"
+    },
+    {
+        "order": 2,
+        "category": 3,
+        "icon": "🇧🇱",
+        "name": "Saint Barthélemy",
+        "native": "Saint-Barthélemy",
+        "translations": {
+            "en": "Saint Barthélemy",
+            "nl": "Saint Barthélemy"
+        },
+        "id": "BL"
+    },
+    {
+        "order": 2,
+        "category": 4,
+        "icon": "🇺🇦",
+        "name": "Ukraine",
+        "native": "Україна",
+        "translations": {
+            "en": "Ukraine",
+            "nl": "Oekraïne"
+        },
+        "id": "UA"
+    },
+    {
+        "order": 2,
+        "category": 4,
+        "icon": "🇹🇴",
+        "name": "Tonga",
+        "native": "Tonga",
+        "translations": {
+            "en": "Tonga",
+            "nl": "Tonga"
+        },
+        "id": "TO"
+    },
+    {
+        "order": 2,
+        "category": 4,
+        "icon": "🇹🇰",
+        "name": "Tokelau",
+        "native": "Tokelau",
+        "translations": {
+            "en": "Tokelau",
+            "nl": "Tokelau"
+        },
+        "id": "TK"
+    },
+    {
+        "order": 2,
+        "category": 3,
+        "icon": "🇨🇼",
+        "name": "Curacao",
+        "native": "Curaçao",
+        "translations": {
+            "en": "Curaçao",
+            "nl": "Curaçao"
+        },
+        "id": "CW"
+    },
+    {
+        "order": 2,
+        "category": 3,
+        "icon": "🇬🇬",
+        "name": "Guernsey",
+        "native": "Guernsey",
+        "translations": {
+            "en": "Guernsey",
+            "nl": "Guernsey"
+        },
+        "id": "GG"
+    },
+    {
+        "order": 2,
+        "category": 4,
+        "icon": "🇻🇮",
+        "name": "U.S. Virgin Islands",
+        "native": "United States Virgin Islands",
+        "translations": {
+            "en": "Virgin Islands, U.S.",
+            "nl": "Maagdeneilanden, Amerikaanse"
+        },
+        "id": "VI"
+    },
+    {
+        "order": 2,
+        "category": 5,
+        "icon": "🇺🇬",
+        "name": "Uganda",
+        "native": "Uganda",
+        "translations": {
+            "en": "Uganda",
+            "nl": "Oeganda"
+        },
+        "id": "UG"
+    },
+    {
+        "order": 2,
+        "category": 4,
+        "icon": "🇿🇲",
+        "name": "Zambia",
+        "native": "Zambia",
+        "translations": {
+            "en": "Zambia",
+            "nl": "Zambia"
+        },
+        "id": "ZM"
+    },
+    {
+        "order": 2,
+        "category": 3,
+        "icon": "🇯🇪",
+        "name": "Jersey",
+        "native": "Jersey",
+        "translations": {
+            "en": "Jersey",
+            "nl": "Jersey"
+        },
+        "id": "JE"
+    },
+    {
+        "order": 2,
+        "category": 4,
+        "icon": "🇵🇸",
+        "name": "Palestine",
+        "native": "فلسطين",
+        "translations": {
+            "en": "State of Palestine",
+            "nl": "Palestina"
+        },
+        "id": "PS"
+    },
+    {
+        "order": 2,
+        "category": 4,
+        "icon": "🇸🇸",
+        "name": "South Sudan",
+        "native": "South Sudan",
+        "translations": {
+            "en": "South Sudan",
+            "nl": "Zuid-Soedan"
+        },
+        "id": "SS"
+    },
+    {
+        "order": 2,
+        "category": 4,
+        "icon": "🇷🇸",
+        "name": "Serbia",
+        "native": "Србија",
+        "translations": {
+            "en": "Serbia",
+            "nl": "Servië"
+        },
+        "id": "RS"
+    },
+    {
+        "order": 2,
+        "category": 4,
+        "icon": "🇽🇰",
+        "name": "Kosovo",
+        "native": "Republika e Kosovës",
+        "translations": {
+            "en": "Kosovo",
+            "nl": "Kosovo"
+        },
+        "id": "XK"
+    },
+    {
+        "order": 2,
+        "category": 3,
+        "icon": "🇸🇽",
+        "name": "Sint Maarten",
+        "native": "Sint Maarten",
+        "translations": {
+            "en": "Sint Maarten (Dutch part)",
+            "nl": "Sint Maarten (Nederlands deel)"
+        },
+        "id": "SX"
+    },
+    {
+        "order": 2,
+        "category": 3,
+        "icon": "🇲🇫",
+        "name": "Saint Martin",
+        "native": "Saint-Martin",
+        "translations": {
+            "en": "Saint Martin (French part)",
+            "nl": "Sint-Maarten (Frans deel)"
+        },
+        "id": "MF"
+    }
+]

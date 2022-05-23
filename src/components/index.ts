@@ -1,4 +1,5 @@
 import UiInputText from './UiFormInputs/UiInputText/UiInputText.vue';
+import UiInputCountry from './UiFormInputs/UiInputCountry/UiInputCountry.vue';
 import UiInputAddress from './UiFormInputs/UiInputAddress/UiInputAddress.vue';
 import UiInputCheckbox from './UiFormInputs/UiInputCheckbox/UiInputCheckbox.vue';
 import UiInputDatepicker from './UiFormInputs/UiInputDatepicker/UiInputDatepicker.vue';
@@ -19,5 +20,6 @@ export {
     UiInputUpload,
     UiIcon,
     UiLanguageSelector,
-    UiHeader
+    UiHeader,
+    UiInputCountry
 };

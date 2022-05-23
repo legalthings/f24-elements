@@ -9,14 +9,10 @@ interface TranslationFile {
 
 const messages: TranslationFile = {
     en: {
-        message: {
-            hello: 'hello world'
-        }
+        message: {}
     },
     nl: {
-        message: {
-            hello: 'Hallo'
-        }
+        message: {}
     }
 };
 

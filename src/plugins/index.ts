@@ -15,7 +15,8 @@ export {
     UiInputSelectbox,
     UiInputText,
     UiLanguageSelector,
-    UiHeader
+    UiHeader,
+    UiInputCountry
 } from '../components';
 
 export type F24Elements = {

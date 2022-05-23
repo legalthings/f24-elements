@@ -12,9 +12,15 @@
 
         <section class="section">
             <ValidationObserver>
+                <UiInputCountry
+                    v-model="data.country"
+                    label="Country"
+                />
+
                 <UiInputText
                     v-model="data.text"
                     label="Input text"
+                    class="mt-5"
                 />
 
                 <UiInputSelectbox
@@ -69,9 +75,11 @@
     import UiInputDatepicker from '@/components/UiFormInputs/UiInputDatepicker/UiInputDatepicker.vue';
     import UiInputAddress from '@/components/UiFormInputs/UiInputAddress/UiInputAddress.vue';
     import UiHeader from '@/components/UiHeader/UiHeader.vue';
+    import UiInputCountry from '@/components/UiFormInputs/UiInputCountry/UiInputCountry.vue';
 
     @Component({
         components: {
+            UiInputCountry,
             UiHeader,
             UiInputAddress,
             UiInputDatepicker,
@@ -86,7 +94,7 @@
     export default class Home extends Vue {
         data: any = {
             address: {}
-        }
+        };
 
         created() {
             this.$buefy.toast.open('Renatex');

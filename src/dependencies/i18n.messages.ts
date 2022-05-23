@@ -1,5 +1,9 @@
 const messages = {
     en: {
+        GLOBAL: {
+            POPULAR_COUNTRIES: 'Most common',
+            OTHER_COUNTRIES: 'Other countries'
+        },
         VALIDATION: {
             THIS_FIELD_IS_REQUIRED: 'This field is required',
             THIS_FIELD_MUST_BE_A_VALID_EMAIL: 'This field must be a valid email',
@@ -31,6 +35,10 @@ const messages = {
         }
     },
     nl: {
+        GLOBAL: {
+            POPULAR_COUNTRIES: 'Meest voorkomende',
+            OTHER_COUNTRIES: 'Overige landen'
+        },
         VALIDATION: {
             THIS_FIELD_IS_REQUIRED: 'Dit veld is verplicht',
             THIS_FIELD_MUST_BE_A_VALID_EMAIL: 'Dit veld moet een geldig e-mailadres zijn',
